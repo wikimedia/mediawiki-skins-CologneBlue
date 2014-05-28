@@ -41,7 +41,6 @@ $wgResourceModules['skins.cologneblue'] = array(
 		'resources/screen.css' => array( 'media' => 'screen' ),
 		'resources/print.css' => array( 'media' => 'print' ),
 	),
-	'remoteExtPath' => 'CologneBlue',
+	'remoteBasePath' => $GLOBALS['wgStylePath'] . '/CologneBlue',
 	'localBasePath' => __DIR__,
 );
-
