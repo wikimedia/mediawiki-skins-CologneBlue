@@ -33,7 +33,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 class SkinCologneBlue extends SkinTemplate {
 	public $skinname = 'cologneblue';
 	public $template = 'CologneBlueTemplate';
-	public $useHeadElement = true;
 
 	/**
 	 * @param OutputPage $out
