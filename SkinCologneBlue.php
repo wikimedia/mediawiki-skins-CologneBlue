@@ -86,8 +86,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	}
 
 	function otherLanguages() {
-		global $wgHideInterlanguageLinks;
-		if ( $wgHideInterlanguageLinks ) {
+		if ( $this->config->get( 'HideInterlanguageLinks' ) ) {
 			return "";
 		}
 
@@ -616,8 +615,6 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	function searchForm( $which ) {
-		global $wgUseTwoButtonsSearchForm;
-
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
 		$action = $this->data['searchaction'];
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
@@ -634,7 +631,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s .= ( $which == 'footer' ? " " : "<br />" );
 		$s .= $this->makeSearchButton( 'go', array( 'class' => 'searchButton' ) );
 
-		if ( $wgUseTwoButtonsSearchForm ) {
+		if ( $this->config->get( 'UseTwoButtonsSearchForm' ) ) {
 			$s .= $this->makeSearchButton( 'fulltext', array( 'class' => 'searchButton' ) );
 		} else {
 			$s .= '<div><a href="' . $action . '" rel="search">'
