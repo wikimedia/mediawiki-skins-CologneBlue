@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"青子守歌"
+		]
+	},
+	"cologneblue.css": "/* ここに記述したCSSはケルンブルー外装の利用者に影響します */",
+	"cologneblue.js": "/* ここにあるすべてのJavaScriptは、ケルンブルー外装を使用している利用者に対して読み込まれます */",
+	"skinname-cologneblue": "ケルンブルー"
+}

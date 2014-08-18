@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Umherirrender"
+		]
+	},
+	"cologneblue.css": "{{optional}}",
+	"cologneblue.js": "{{optional}}",
+	"skinname-cologneblue": "{{optional}}"
+}
