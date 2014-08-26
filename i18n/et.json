@@ -1,3 +1,11 @@
 {
-	"skinname-cologneblue": "Kölni sinine"
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"cologneblue.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Kölni sinise kujunduse kasutajaid. */",
+	"cologneblue.js": "/* Siin asuv JavaScript laaditakse kõigi Kölni sinise kujunduse kasutajate jaoks. */",
+	"skinname-cologneblue": "Kölni sinine",
+	"cologneblue-desc": "Lihtne minimaalse vormistusega kujundus"
 }

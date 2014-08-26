@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"Umherirrender"
+			"Umherirrender",
+			"Shirayuki"
 		]
 	},
 	"cologneblue.css": "{{optional}}",
 	"cologneblue.js": "{{optional}}",
-	"skinname-cologneblue": "{{optional}}"
+	"skinname-cologneblue": "{{optional}}",
+	"cologneblue-desc": "Used in [[Special:Version]], description of Cologne Blue skin."
 }
