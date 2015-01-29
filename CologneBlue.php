@@ -28,7 +28,7 @@ $wgExtensionCredits['skin'][] = array(
 	'descriptionmsg' => 'cologneblue-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Cologne_Blue',
 	'author' => array( 'Lee Daniel Crocker', '...' ),
-	'license-name' => 'GPLv2+',
+	'license-name' => 'GPL-2.0+',
 );
 
 // Register files
