@@ -48,3 +48,10 @@ $wgResourceModules['skins.cologneblue'] = array(
 	'remoteBasePath' => $GLOBALS['wgStylePath'] . '/CologneBlue',
 	'localBasePath' => __DIR__,
 );
+
+// Apply module customizations
+$wgResourceModuleSkinStyles['cologneblue'] = array(
+	'mediawiki.sectionAnchor' => 'resources/sectionAnchor.css',
+	'remoteSkinPath' => 'CologneBlue',
+	'localBasePath' => __DIR__,
+);
