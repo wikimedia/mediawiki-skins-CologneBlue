@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Skin:Cologne_Blue",
 	"descriptionmsg": "cologneblue-desc",
-	"namemsg": "skinname-cologneblue",
+	"namemsg": "cologneblue-skinname",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
