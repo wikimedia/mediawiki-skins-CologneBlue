@@ -7,6 +7,6 @@
 	},
 	"cologneblue.css": "/* o código CSS colocado aqui terá efeito nos usuários do tema Cologne Blue */",
 	"cologneblue.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do tema Cologne Blue */",
-	"cologneblue-skinname": "Azul Colonial",
+	"skinname-cologneblue": "Azul Colonial",
 	"cologneblue-desc": "Um tema leve com formatação mínima"
 }

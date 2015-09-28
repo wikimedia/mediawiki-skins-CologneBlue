@@ -7,5 +7,5 @@
 	},
 	"cologneblue.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska modrá */",
 	"cologneblue.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska modrá */",
-	"cologneblue-skinname": "Kolínska modrá"
+	"skinname-cologneblue": "Kolínska modrá"
 }

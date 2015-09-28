@@ -9,6 +9,6 @@
 	},
 	"cologneblue.css": "/* Размещённый здесь CSS будет применяться к теме оформления Cologne Blue */",
 	"cologneblue.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Cologne Blue */",
-	"cologneblue-skinname": "Кёльнская тоска",
+	"skinname-cologneblue": "Кёльнская тоска",
 	"cologneblue-desc": "Лёгкая тема оформления с минимальным форматированием."
 }
