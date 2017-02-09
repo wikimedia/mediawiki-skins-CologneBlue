@@ -168,38 +168,23 @@ class CologneBlueTemplate extends BaseTemplate {
 			$element = array();
 
 			$editLinkMessage = $this->getSkin()->getTitle()->exists() ? 'editthispage' : 'create-this-page';
+			$element[] = $this->processBottomLink( 'edit', $content_nav['views']['edit'], $editLinkMessage );
+			$element[] = $this->processBottomLink(
+				'viewsource',
+				$content_nav['views']['viewsource'],
+				'viewsource'
+			);
 
-			if ( isset( $content_nav['views']['edit'] ) ) {
-				$element[] = $this->processBottomLink(
-					'edit',
-					$content_nav['views']['edit'],
-					$editLinkMessage
-				);
-			}
-
-			if ( isset( $content_nav['views']['viewsource'] ) ) {
-				$element[] = $this->processBottomLink(
-					'viewsource',
-					$content_nav['views']['viewsource'],
-					'viewsource'
-				);
-			}
-
-			if ( isset( $content_nav['actions']['watch'] ) ) {
-				$element[] = $this->processBottomLink(
-					'watch',
-					$content_nav['actions']['watch'],
-					'watchthispage'
-				);
-			}
-
-			if ( isset( $content_nav['actions']['unwatch'] ) ) {
-				$element[] = $this->processBottomLink(
-					'unwatch',
-					$content_nav['actions']['unwatch'],
-					'unwatchthispage'
-				);
-			}
+			$element[] = $this->processBottomLink(
+				'watch',
+				$content_nav['actions']['watch'],
+				'watchthispage'
+			);
+			$element[] = $this->processBottomLink(
+				'unwatch',
+				$content_nav['actions']['unwatch'],
+				'unwatchthispage'
+			);
 
 			$element[] = $this->talkLink();
 
@@ -208,10 +193,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$element[] = $this->processBottomLink( 'whatlinkshere', $toolbox['whatlinkshere'] );
 			$element[] = $this->processBottomLink( 'recentchangeslinked', $toolbox['recentchangeslinked'] );
 
-			if ( isset( $toolbox['contributions'] ) ) {
-				$element[] = $this->processBottomLink( 'contributions', $toolbox['contributions'] );
-			}
-
+			$element[] = $this->processBottomLink( 'contributions', $toolbox['contributions'] );
 			if ( isset( $toolbox['emailuser'] ) ) {
 				$element[] = $this->processBottomLink( 'emailuser', $toolbox['emailuser'] );
 			}
@@ -221,14 +203,11 @@ class CologneBlueTemplate extends BaseTemplate {
 			// Second row. Privileged actions.
 			$element = array();
 
-			if ( isset( $content_nav['actions']['delete'] ) ) {
-				$element[] = $this->processBottomLink(
-					'delete',
-					$content_nav['actions']['delete'],
-					'deletethispage'
-				);
-			}
-
+			$element[] = $this->processBottomLink(
+				'delete',
+				$content_nav['actions']['delete'],
+				'deletethispage'
+			);
 			if ( isset( $content_nav['actions']['undelete'] ) ) {
 				$element[] = $this->processBottomLink(
 					'undelete',
@@ -253,13 +232,7 @@ class CologneBlueTemplate extends BaseTemplate {
 				);
 			}
 
-			if ( isset( $content_nav['actions']['move'] ) ) {
-				$element[] = $this->processBottomLink(
-					'move',
-					$content_nav['actions']['move'],
-					'movethispage'
-				);
-			}
+			$element[] = $this->processBottomLink( 'move', $content_nav['actions']['move'], 'movethispage' );
 
 			$lines[] = $this->getSkin()->getLanguage()->pipeList( array_filter( $element ) );
 
@@ -512,38 +485,20 @@ class CologneBlueTemplate extends BaseTemplate {
 		// $...['namespaces']['talk'] together serve the same purpose. We also
 		// don't use $...['variants'], these are displayed in the top menu.
 		$content_navigation = $this->data['content_navigation'];
-
-		$content_navigation_overrides = array();
-
-		foreach (
-			array(
-				array('views', 'history'),
-				array('actions', 'watch'),
-				array('actions', 'unwatch'),
-			) as $key ) {
-			if ( isset( $content_navigation[$key[0]][$key[1]] ) ) {
-				$content_navigation_overrides[$key[1]] = $content_navigation[$key[0]][$key[1]];
-			} else {
-				$content_navigation_overrides[$key[1]] = array();
-			}
-		}
-
 		$qbpageoptions = array_merge(
 			$content_navigation['namespaces'],
-			$content_navigation_overrides
+			array(
+				'history' => $content_navigation['views']['history'],
+				'watch' => $content_navigation['actions']['watch'],
+				'unwatch' => $content_navigation['actions']['unwatch'],
+			)
 		);
-
 		$content_navigation['actions']['watch'] = null;
 		$content_navigation['actions']['unwatch'] = null;
-
-		if ( isset( $content_navigation['views']['edit'] ) ) {
-			$qbEditLinks = [ 'edit' => $content_navigation['views']['edit'] ];
-		}
-
+		$qbEditLinks = [ 'edit' => $content_navigation['views']['edit'] ];
 		if ( isset( $content_navigation['views']['addsection'] ) ) {
 			$qbEditLinks['addsection'] = $content_navigation['views']['addsection'];
 		}
-
 		$qbedit = array_merge(
 			$qbEditLinks,
 			$content_navigation['actions']
@@ -628,10 +583,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$heading = (string)$heading;
 
 			$portletId = Sanitizer::escapeId( "p-$heading" );
-			$headingMsg = $heading;
-			if ( isset( $idToMessage[$heading] ) ) {
-				$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
-			}
+			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
 			$headingHTML = "<h3>";
 			$headingHTML .= $headingMsg->exists()
 				? $headingMsg->escaped()
