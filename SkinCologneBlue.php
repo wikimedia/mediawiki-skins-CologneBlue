@@ -56,6 +56,8 @@ class SkinCologneBlue extends SkinTemplate {
 
 class CologneBlueTemplate extends BaseTemplate {
 	function execute() {
+		// Suppress warnings to prevent notices about missing indexes in $this->data
+		wfSuppressWarnings();
 		$this->html( 'headelement' );
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
@@ -64,6 +66,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$this->html( 'dataAfterContent' );
 		$this->printTrail();
 		echo "\n</body></html>";
+		wfRestoreWarnings();
 	}
 
 	/**
