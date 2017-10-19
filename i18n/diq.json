@@ -2,9 +2,30 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Kumkumuk"
+			"Kumkumuk",
+			"1917 Ekim Devrimi",
+			"Asmen",
+			"Gorizon",
+			"Gırd",
+			"Mirzali"
 		]
 	},
 	"skinname-cologneblue": "Cologne Blue",
-	"cologneblue-desc": "Minimal format kerdışi ya xefif bezn"
+	"cologneblue-desc": "Minimal format kerdışi ya xefif bezn",
+	"qbfind": "Bıvin",
+	"qbbrowse": "Çım ra viyarne",
+	"qbedit": "Bıvırne",
+	"qbpageoptions": "Na perrer",
+	"qbmyoptions": "Perrê mı",
+	"faqpage": "Project: PVP",
+	"editthispage": "Na perrer bıvurne",
+	"create-this-page": "Na perer bıvıraz",
+	"deletethispage": "Ena pele bestere",
+	"undeletethispage": "Na perer mebesterne",
+	"protectthispage": "Ena perre şeveknê",
+	"unprotectthispage": "Şeveknayışê ena perre bıvırne",
+	"talkpage": "Na per dı vatan kew",
+	"articlepage": "Pera zerreki bıvin",
+	"userpage": "Perra karberi bıvin",
+	"projectpage": "Perra proji bıvin"
 }
