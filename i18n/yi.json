@@ -1,9 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער"
+			"פוילישער",
+			"Yidel"
 		]
 	},
 	"cologneblue.css": "/* CSS געשטעלט דא ווירקט נאר אויפן קעלנישן־בלוי סקין */",
-	"skinname-cologneblue": "קעלניש בלוי"
+	"skinname-cologneblue": "קעלניש בלוי",
+	"qbfind": "טרעף",
+	"qbbrowse": "בלעטערן",
+	"qbedit": "ענדערן",
+	"qbpageoptions": "דער בלאט",
+	"qbmyoptions": "מיינע בלעטער",
+	"faqpage": "Project:מערסטע געפרעגט פראגעס",
+	"editthispage": "ענדערן דעם בלאט",
+	"create-this-page": "שאַפֿן דעם בלאַט",
+	"deletethispage": "אויסמעקן דעם בלאַט",
+	"undeletethispage": "צוריקשטעלן דעם בלאט",
+	"protectthispage": "באשיץ דעם בלאט",
+	"unprotectthispage": "ענדערן באַשיצונג פון דעם בלאַט",
+	"talkpage": "שמועסט איבער דעם בלאט",
+	"articlepage": "זען אינהאַלט בלאַט",
+	"userpage": "זען באַניצער בלאַט",
+	"projectpage": "זען פראיעקט בלאַט"
 }

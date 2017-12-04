@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gott wisst",
+			"Wōdenhelm"
+		]
+	},
+	"qbfind": "Findan",
+	"qbbrowse": "Þurhsēcan",
+	"qbedit": "Adihtan",
+	"qbpageoptions": "Þes tramet",
+	"qbmyoptions": "Mīne trametas",
+	"faqpage": "Project:FAQ",
+	"editthispage": "Adihtan þisne tramet",
+	"create-this-page": "Scieppan þisne tramet",
+	"deletethispage": "Forlēosan þisne tramet",
+	"undeletethispage": "Undōn þā forlēosunge þisses trametes",
+	"protectthispage": "Beorgan þisne tramet",
+	"unprotectthispage": "Andwendan beorgune þisses trametes",
+	"talkpage": "Sprecan ymbe þisne tramet",
+	"articlepage": "Sēon innunge tramet",
+	"userpage": "Sēon brūcendes tramet",
+	"projectpage": "Sēon weorces tramet"
+}

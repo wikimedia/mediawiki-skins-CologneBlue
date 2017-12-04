@@ -1,10 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vago"
+			"Vago",
+			"Gulmammad",
+			"Mushviq Abdulla",
+			"PPerviz",
+			"PrinceValiant",
+			"Sortilegus"
 		]
 	},
 	"cologneblue.css": "/* Burada yerləşən CSS Cologne Blue skin istifadəçilərinə tətbiq olunur */",
 	"cologneblue.js": "/* Burada Cologne Blue skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
-	"skinname-cologneblue": "Cologne Blue"
+	"skinname-cologneblue": "Cologne Blue",
+	"qbfind": "Tap",
+	"qbbrowse": "Gözdən keçir",
+	"qbedit": "Redaktə",
+	"qbpageoptions": "Bu səhifə",
+	"qbmyoptions": "Mənim səhifələrim",
+	"faqpage": "Project:TSS",
+	"editthispage": "Bu səhifəni redaktə et",
+	"create-this-page": "Bu səhifəni yarat",
+	"deletethispage": "Bu səhifəni sil",
+	"undeletethispage": "Bu səhifənin silmə əməliyyatını geri qaytar",
+	"protectthispage": "Bu səhifəni mühafizə et",
+	"unprotectthispage": "Bu səhifənin mühafizəsini kənarlaşdır",
+	"talkpage": "Bu səhifəni müzakirə et",
+	"articlepage": "Məqaləni nəzərdən keçir",
+	"userpage": "İstifadəçi səhifəsini göstər",
+	"projectpage": "Layihə səhifəsini göstər"
 }

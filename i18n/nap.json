@@ -1,8 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Chelin",
+			"Cryptex",
+			"E. abu Filumena",
+			"SabineCretella"
 		]
 	},
-	"cologneblue-desc": "Skin leggera co' furmattazione minima"
+	"cologneblue-desc": "Skin leggera co' furmattazione minima",
+	"qbfind": "Truòva",
+	"qbbrowse": "Sfoglia",
+	"qbedit": "Càgna",
+	"qbpageoptions": "Chesta paggena",
+	"qbmyoptions": "'E ppaggene mie",
+	"faqpage": "Project:Domanne frequente",
+	"editthispage": "Càgna chesta paggena",
+	"create-this-page": "Crèa sta paggena",
+	"deletethispage": "Scancèlla chésta paggena",
+	"undeletethispage": "Arrepiglia chista paggena",
+	"protectthispage": "Ferma chesta paggena",
+	"unprotectthispage": "Càgna prutezzione 'e chesta paggena",
+	"talkpage": "Paggena 'e chiàcchiera",
+	"articlepage": "Vere a paggena e contenuto",
+	"userpage": "Vere a paggena utente",
+	"projectpage": "Vere a paggena 'e servizio"
 }

@@ -1,11 +1,30 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Rancher",
+			"Slaven Kosanovic",
+			"Сербијана"
 		]
 	},
 	"cologneblue.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Kelnsko plava“ */",
 	"cologneblue.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Kelnsko plava“ */",
 	"skinname-cologneblue": "Kelnsko plava",
-	"cologneblue-desc": "Lagana tema sa minimalnim formatiranjem"
+	"cologneblue-desc": "Lagana tema sa minimalnim formatiranjem",
+	"qbfind": "Pronađi",
+	"qbbrowse": "Potraži",
+	"qbedit": "Uredi",
+	"qbpageoptions": "Ova stranica",
+	"qbmyoptions": "Moje stranice",
+	"faqpage": "Project:NPP",
+	"editthispage": "Uredi ovu stranicu",
+	"create-this-page": "Napravi ovu stranicu",
+	"deletethispage": "Obriši ovu stranicu",
+	"undeletethispage": "Vrati ovu stranicu",
+	"protectthispage": "Zaštiti ovu stranicu",
+	"unprotectthispage": "Promeni zaštitu ove stranice",
+	"talkpage": "Razgovor ove stranice",
+	"articlepage": "Pogledaj stranicu sa sadržajem",
+	"userpage": "Pogledaj korisničku stranicu",
+	"projectpage": "Pogledaj stranicu projekta"
 }

@@ -1,11 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Or",
+			"Rotemliss"
 		]
 	},
 	"cologneblue.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"מים כחולים\" בלבד */",
 	"cologneblue.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"מים כחולים\" בלבד */",
 	"skinname-cologneblue": "מים כחולים",
-	"cologneblue-desc": "מעטפת קלה עם עיצוב מינימלי"
+	"cologneblue-desc": "מעטפת קלה עם עיצוב מינימלי",
+	"qbfind": "חיפוש",
+	"qbbrowse": "ניווט",
+	"qbedit": "עריכה",
+	"qbpageoptions": "הדף הזה",
+	"qbmyoptions": "הדפים שלי",
+	"faqpage": "Project:שאלות ותשובות",
+	"editthispage": "עריכת דף זה",
+	"create-this-page": "יצירת דף זה",
+	"deletethispage": "מחיקת דף זה",
+	"undeletethispage": "שחזור דף זה",
+	"protectthispage": "הפעלת הגנה על דף זה",
+	"unprotectthispage": "שינוי ההגנה על דף זה",
+	"talkpage": "שיחה על דף זה",
+	"articlepage": "צפייה בדף התוכן",
+	"userpage": "צפייה בדף המשתמש",
+	"projectpage": "צפייה בדף המיזם"
 }

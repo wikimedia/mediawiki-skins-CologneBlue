@@ -4,11 +4,30 @@
 			"Kaganer",
 			"Okras",
 			"Rave",
-			"NBS"
+			"NBS",
+			"Ahonc",
+			"Lunacy1911",
+			"Александр Сигачёв"
 		]
 	},
 	"cologneblue.css": "/* Размещённый здесь CSS будет применяться к теме оформления Cologne Blue */",
 	"cologneblue.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Cologne Blue */",
 	"skinname-cologneblue": "Кёльнская тоска",
-	"cologneblue-desc": "Лёгкая тема оформления с минимальным форматированием."
+	"cologneblue-desc": "Лёгкая тема оформления с минимальным форматированием.",
+	"qbfind": "Поиск",
+	"qbbrowse": "Просмотреть",
+	"qbedit": "Править",
+	"qbpageoptions": "Настройки страницы",
+	"qbmyoptions": "Ваши настройки",
+	"faqpage": "Project:ЧаВО",
+	"editthispage": "Править эту страницу",
+	"create-this-page": "Создать эту страницу",
+	"deletethispage": "Удалить эту страницу",
+	"undeletethispage": "Восстановить эту страницу",
+	"protectthispage": "Защитить эту страницу",
+	"unprotectthispage": "Изменить защиту этой страницы",
+	"talkpage": "Обсудить эту страницу",
+	"articlepage": "Просмотреть статью",
+	"userpage": "Просмотреть страницу участника",
+	"projectpage": "Просмотреть страницу проекта"
 }

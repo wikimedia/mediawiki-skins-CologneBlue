@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Incelemeelemani",
+			"Joseph",
+			"Karduelis",
+			"Mirzali",
+			"Srhat",
+			"Stultiwikia",
+			"Vito Genovese"
+		]
+	},
+	"qbfind": "Bul",
+	"qbbrowse": "Gözat",
+	"qbedit": "Düzenle",
+	"qbpageoptions": "Bu sayfa",
+	"qbmyoptions": "Sayfalarım",
+	"faqpage": "Project:SSS",
+	"editthispage": "Bu sayfayı düzenle",
+	"create-this-page": "Bu sayfayı oluştur",
+	"deletethispage": "Bu sayfayı sil",
+	"undeletethispage": "Bu sayfanın silme işlemini geri al",
+	"protectthispage": "Bu sayfayı koruma altına al",
+	"unprotectthispage": "Bu sayfanın korumasını değiştir",
+	"talkpage": "Tartışma sayfası",
+	"articlepage": "İçerik sayfasını gör",
+	"userpage": "Kullanıcı sayfasını görüntüle",
+	"projectpage": "Proje sayfasını görüntüle"
+}

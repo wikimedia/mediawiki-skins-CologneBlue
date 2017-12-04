@@ -1,11 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"SPQRobin"
 		]
 	},
 	"cologneblue.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Keuls blauw */",
 	"cologneblue.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Keuls blauw gebruiken */",
 	"skinname-cologneblue": "Keuls blauw",
-	"cologneblue-desc": "Een lichtgewicht uiterlijk met minimale opmaak"
+	"cologneblue-desc": "Een lichtgewicht uiterlijk met minimale opmaak",
+	"qbfind": "Zoeken",
+	"qbbrowse": "Bladeren",
+	"qbedit": "Bewerken",
+	"qbpageoptions": "Deze pagina",
+	"qbmyoptions": "Mijn pagina's",
+	"faqpage": "Project:Veelgestelde vragen",
+	"editthispage": "Deze pagina bewerken",
+	"create-this-page": "Deze pagina aanmaken",
+	"deletethispage": "Deze pagina verwijderen",
+	"undeletethispage": "Pagina terugplaatsen",
+	"protectthispage": "Deze pagina beveiligen",
+	"unprotectthispage": "Beveiliging van deze pagina wijzigen",
+	"talkpage": "Overlegpagina",
+	"articlepage": "Pagina bekijken",
+	"userpage": "Gebruikerspagina bekijken",
+	"projectpage": "Projectpagina bekijken"
 }

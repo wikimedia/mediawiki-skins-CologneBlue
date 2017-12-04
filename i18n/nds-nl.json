@@ -1,4 +1,24 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Keuls blauw"
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"skinname-cologneblue": "Keuls blauw",
+	"qbfind": "Zeuken",
+	"qbbrowse": "Blaojen",
+	"qbedit": "Bewark",
+	"qbpageoptions": "Disse zied",
+	"qbmyoptions": "Veurkeuren",
+	"faqpage": "Project:Vragen die vake esteld wörden",
+	"editthispage": "Disse zied bewarken",
+	"create-this-page": "Disse zied anmaken",
+	"deletethispage": "Disse zied vortdoon",
+	"undeletethispage": "Zied weerummeplaotsen",
+	"protectthispage": "Beveiligen",
+	"unprotectthispage": "Beveiliging van disse zied wiezigen",
+	"talkpage": "Overlegzied",
+	"articlepage": "Artikel",
+	"userpage": "gebrukerszied",
+	"projectpage": "Bekiek projektzied"
 }

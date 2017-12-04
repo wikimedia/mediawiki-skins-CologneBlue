@@ -3,11 +3,30 @@
 		"authors": [
 			"Crt",
 			"Nedergard",
-			"McSalama"
+			"McSalama",
+			"Nike",
+			"Pxos",
+			"Stryn"
 		]
 	},
 	"cologneblue.css": "/* Tämä sivu sisältää Kölnin sininen -ulkoasua muuttavia tyylejä. */",
 	"cologneblue.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin sininen -tyyliin */",
 	"skinname-cologneblue": "Kölnin sininen",
-	"cologneblue-desc": "Kevyt teema minimaalisella muotoilulla"
+	"cologneblue-desc": "Kevyt teema minimaalisella muotoilulla",
+	"qbfind": "Etsi",
+	"qbbrowse": "Selaa",
+	"qbedit": "Muokkaa",
+	"qbpageoptions": "Sivuasetukset",
+	"qbmyoptions": "Omat sivut",
+	"faqpage": "Project:Usein kysytyt kysymykset",
+	"editthispage": "Muokkaa tätä sivua",
+	"create-this-page": "Luo tämä sivu",
+	"deletethispage": "Poista tämä sivu",
+	"undeletethispage": "Palauta tämä sivu",
+	"protectthispage": "Suojaa tämä sivu",
+	"unprotectthispage": "Muuta tämän sivun suojausta",
+	"talkpage": "Keskustele tästä sivusta",
+	"articlepage": "Näytä varsinainen sivu",
+	"userpage": "Näytä käyttäjäsivu",
+	"projectpage": "Näytä projektisivu"
 }

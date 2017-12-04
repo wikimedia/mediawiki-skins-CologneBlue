@@ -2,11 +2,31 @@
 	"@metadata": {
 		"authors": [
 			"Huji",
-			"Reza1615"
+			"Reza1615",
+			"Alirezaaa",
+			"Arian Ar",
+			"Ebraminio",
+			"ZxxZxxZ"
 		]
 	},
 	"cologneblue.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ کلون‌بلو استفاده کنند تحت تاثیر قرار می‌دهند. */",
 	"cologneblue.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ کلون بارگیری می‌شود * /",
 	"skinname-cologneblue": "آبی کلن",
-	"cologneblue-desc": "پوستهٔ بسیار سبک  با حداقل شکل‌بندی"
+	"cologneblue-desc": "پوستهٔ بسیار سبک  با حداقل شکل‌بندی",
+	"qbfind": "یافتن",
+	"qbbrowse": "مرور",
+	"qbedit": "ویرایش",
+	"qbpageoptions": "این صفحه",
+	"qbmyoptions": "صفحه‌های من",
+	"faqpage": "Project:پرسش‌های متداول",
+	"editthispage": "ویرایش این صفحه",
+	"create-this-page": "ایجاد این صفحه",
+	"deletethispage": "حذف این صفحه",
+	"undeletethispage": "احیای این صفحه",
+	"protectthispage": "محافظت از این صفحه",
+	"unprotectthispage": "تغییر محافظت این صفحه",
+	"talkpage": "بحث دربارهٔ این صفحه",
+	"articlepage": "نمایش مقاله",
+	"userpage": "نمایش صفحهٔ کاربر",
+	"projectpage": "نمایش صفحهٔ پروژه"
 }

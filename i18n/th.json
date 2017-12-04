@@ -2,10 +2,30 @@
 	"@metadata": {
 		"authors": [
 			"Manop",
-			"Octahedron80"
+			"Octahedron80",
+			"Aefgh39622",
+			"Ans",
+			"Horus",
+			"Passawuth"
 		]
 	},
 	"cologneblue.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
 	"cologneblue.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
-	"skinname-cologneblue": "โคโลญจ์บลู"
+	"skinname-cologneblue": "น้ำเงินโคโลญจ์",
+	"qbfind": "ค้นหา",
+	"qbbrowse": "สืบค้น",
+	"qbedit": "แก้ไข",
+	"qbpageoptions": "หน้านี้",
+	"qbmyoptions": "หน้าของฉัน",
+	"faqpage": "Project:คำถามที่พบบ่อย",
+	"editthispage": "แก้ไขหน้านี้",
+	"create-this-page": "สร้างหน้านี้",
+	"deletethispage": "ลบหน้านี้",
+	"undeletethispage": "กู้คืนหน้านี้",
+	"protectthispage": "ล็อกหน้านี้",
+	"unprotectthispage": "เปลี่ยนการล็อกหน้านี้",
+	"talkpage": "อภิปรายหน้านี้",
+	"articlepage": "ดูหน้าเนื้อหา",
+	"userpage": "ดูหน้าผู้ใช้",
+	"projectpage": "ดูหน้าโครงการ"
 }

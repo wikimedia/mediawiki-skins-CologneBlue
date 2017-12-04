@@ -4,5 +4,21 @@
 			"Dbc334"
 		]
 	},
-	"cologneblue-desc": "Lahka koža z minimalnim oblikovanjem"
+	"cologneblue-desc": "Lahka koža z minimalnim oblikovanjem",
+	"qbfind": "Poišči",
+	"qbbrowse": "Prebrskaj",
+	"qbedit": "Uredi",
+	"qbpageoptions": "Možnosti strani",
+	"qbmyoptions": "Moje strani",
+	"faqpage": "Project:Najpogostejša vprašanja",
+	"editthispage": "Uredi stran",
+	"create-this-page": "Ustvari stran",
+	"deletethispage": "Briši stran",
+	"undeletethispage": "Obnovi stran",
+	"protectthispage": "Zaščiti stran",
+	"unprotectthispage": "Spremeni zaščito strani",
+	"talkpage": "Pogovorite se o strani",
+	"articlepage": "Prikaže članek",
+	"userpage": "Prikaži uporabnikovo stran",
+	"projectpage": "Prikaži projektno stran"
 }

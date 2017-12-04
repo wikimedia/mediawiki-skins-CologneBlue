@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kening Aldgilles",
+			"Robin van der Vliet",
+			"Snakesteuben"
+		]
+	},
+	"qbfind": "Sykje",
+	"qbbrowse": "Blêdzje",
+	"qbedit": "Bewurkje",
+	"qbpageoptions": "Side-opsjes",
+	"qbmyoptions": "Myn Opsjes",
+	"faqpage": "Project:Faak stelde fragen",
+	"editthispage": "Side bewurkje",
+	"create-this-page": "Dizze side oanmeitsje",
+	"deletethispage": "Side wiskje",
+	"undeletethispage": "Side werompleatse",
+	"protectthispage": "Side skoattelje",
+	"unprotectthispage": "Side frij jaan",
+	"talkpage": "Sideoerlis",
+	"articlepage": "Side lêze",
+	"userpage": "Meidoggerside",
+	"projectpage": "Metaside"
+}

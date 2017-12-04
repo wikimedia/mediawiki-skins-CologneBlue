@@ -1,9 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"DCLXVI"
 		]
 	},
 	"skinname-cologneblue": "Кьолнско синьо",
-	"cologneblue-desc": "Олекотен облик с минимално форматиране"
+	"cologneblue-desc": "Олекотен облик с минимално форматиране",
+	"qbfind": "Търсене",
+	"qbbrowse": "Избор",
+	"qbedit": "Редактиране",
+	"qbpageoptions": "Тази страница",
+	"qbmyoptions": "Моите страници",
+	"faqpage": "Project:ЧЗВ",
+	"editthispage": "Редактиране",
+	"create-this-page": "Създаване на страницата",
+	"deletethispage": "Изтриване",
+	"undeletethispage": "Възстановяване на страницата",
+	"protectthispage": "Защита",
+	"unprotectthispage": "Промяна на защитата на тази страница",
+	"talkpage": "Дискусионна страница",
+	"articlepage": "Преглед на страница",
+	"userpage": "Потребителска страница",
+	"projectpage": "Проектна страница"
 }

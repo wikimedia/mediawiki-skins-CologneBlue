@@ -2,11 +2,29 @@
 	"@metadata": {
 		"authors": [
 			"Dj",
-			"ViDam"
+			"ViDam",
+			"Dani",
+			"Tacsipacsi"
 		]
 	},
 	"cologneblue.css": "/* Az ide elhelyezett CSS hatással lesz a Kölni kék felület használóira */",
 	"cologneblue.js": "/* A Kölni kék felületet használó szerkesztők számára betöltendő JavaScriptek */",
 	"skinname-cologneblue": "Kölni kék",
-	"cologneblue-desc": "Egy pehelykönnyű felület minimális formázással"
+	"cologneblue-desc": "Egy pehelykönnyű felület minimális formázással",
+	"qbfind": "Keresés",
+	"qbbrowse": "Böngészés",
+	"qbedit": "Szerkesztés",
+	"qbpageoptions": "Lapbeállítások",
+	"qbmyoptions": "Lapjaim",
+	"faqpage": "Project:GyIK",
+	"editthispage": "Lap szerkesztése",
+	"create-this-page": "Oldal létrehozása",
+	"deletethispage": "Lap törlése",
+	"undeletethispage": "Lap helyreállítása",
+	"protectthispage": "Lapvédelem",
+	"unprotectthispage": "A lap védelmének módosítása",
+	"talkpage": "A lappal kapcsolatos megbeszélés",
+	"articlepage": "Szócikk megtekintése",
+	"userpage": "Felhasználó lapjának megtekintése",
+	"projectpage": "Projektlap megtekintése"
 }

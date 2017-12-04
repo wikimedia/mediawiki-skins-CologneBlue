@@ -7,5 +7,21 @@
 	"cologneblue.css": "/* Le CSS placiate hic afficera le usatores del apparentia Colonia Blau */",
 	"cologneblue.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Colonia Blau */",
 	"skinname-cologneblue": "Colonia Blau",
-	"cologneblue-desc": "Apparentia legier e minimalista"
+	"cologneblue-desc": "Apparentia legier e minimalista",
+	"qbfind": "Cercar",
+	"qbbrowse": "Foliar",
+	"qbedit": "Modificar",
+	"qbpageoptions": "Iste pagina",
+	"qbmyoptions": "Mi paginas",
+	"faqpage": "Project:FAQ",
+	"editthispage": "Modificar iste pagina",
+	"create-this-page": "Crear iste pagina",
+	"deletethispage": "Deler iste pagina",
+	"undeletethispage": "Restaurar iste pagina",
+	"protectthispage": "Proteger iste pagina",
+	"unprotectthispage": "Cambiar le protection de iste pagina",
+	"talkpage": "Discuter iste pagina",
+	"articlepage": "Vider pagina de contento",
+	"userpage": "Vider pagina del usator",
+	"projectpage": "Vider pagina de projecto"
 }

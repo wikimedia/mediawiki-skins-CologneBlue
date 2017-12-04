@@ -2,5 +2,20 @@
 	"@metadata": [],
 	"cologneblue.css": "/* مىندا ورنالاستىرىلعان CSS تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلارىنا ىقپال ەتەدى skin */",
 	"cologneblue.js": "/* مىنداعى JavaScript تەك «كولن زەڭگىرلىگى» (cologneblue) مانەرىن پايدالانۋشىلار ٴۇشىن جەگىلەدى */",
-	"skinname-cologneblue": "كولن زەڭگىرلىگى (cologneblue)"
+	"skinname-cologneblue": "كولن زەڭگىرلىگى (cologneblue)",
+	"qbfind": "تابۋ",
+	"qbbrowse": "شولۋ",
+	"qbedit": "وڭدەۋ",
+	"qbpageoptions": "بۇل بەت",
+	"qbmyoptions": "بەتتەرىم",
+	"faqpage": "Project:ٴجىيى قويىلعان ساۋالدار",
+	"editthispage": "بەتتى وڭدەۋ",
+	"create-this-page": "جاڭا بەت باستاۋ",
+	"deletethispage": "بەتتى جويۋ",
+	"protectthispage": "بەتتى قورعاۋ",
+	"unprotectthispage": "بەتتى قورعاماۋ",
+	"talkpage": "بەتتى تالقىلاۋ",
+	"articlepage": "ماعلۇمات بەتىن قاراۋ",
+	"userpage": "قاتىسۋشى بەتىن قاراۋ",
+	"projectpage": "جوبا بەتىن قاراۋ"
 }

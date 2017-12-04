@@ -1,4 +1,27 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Kölnska plava"
+	"@metadata": {
+		"authors": [
+			"Dalibor Bosits",
+			"Roberta F.",
+			"SpeedyGonsales",
+			"Tivek"
+		]
+	},
+	"skinname-cologneblue": "Kölnska plava",
+	"qbfind": "Nađi",
+	"qbbrowse": "Pregledaj",
+	"qbedit": "Uredi",
+	"qbpageoptions": "Postavke stranice",
+	"qbmyoptions": "Moje stranice",
+	"faqpage": "Project:FAQ",
+	"editthispage": "Uredi ovu stranicu",
+	"create-this-page": "Započni ovu stranicu",
+	"deletethispage": "Izbriši ovu stranicu",
+	"undeletethispage": "Vrati ovu stranicu",
+	"protectthispage": "Zaštiti ovu stranicu",
+	"unprotectthispage": "Promijeni zaštitu ove stranice",
+	"talkpage": "Razgovor o ovoj stranici",
+	"articlepage": "Vidi članak",
+	"userpage": "Vidi suradnikovu stranicu",
+	"projectpage": "Vidi stranicu o projektu"
 }

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlefZet",
+			"Atabek",
+			"Jiemurat"
+		]
+	},
+	"qbfind": "Tabıw",
+	"qbbrowse": "Ko'riw",
+	"qbedit": "O'zgertiw",
+	"qbpageoptions": "Usı bet",
+	"qbmyoptions": "Menin' betlerim",
+	"faqpage": "Project:KBS",
+	"editthispage": "Usı betti o'zgertiw",
+	"create-this-page": "Bul betti jaratıw",
+	"deletethispage": "Usı betti o'shiriw",
+	"protectthispage": "Bul betti qorg'aw",
+	"unprotectthispage": "Bul bettin' qorg'aw sazlawların o'zgertiw",
+	"talkpage": "Bul betti diskussiyalaw",
+	"articlepage": "Mag'lıwmat betin ko'riw",
+	"userpage": "Paydalanıwshı betin ko'riw",
+	"projectpage": "Proyekt betin ko'riw"
+}

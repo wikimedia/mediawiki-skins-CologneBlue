@@ -2,11 +2,31 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Rancher"
+			"Rancher",
+			"Sasa Stefanovic",
+			"Slaven Kosanovic",
+			"Жељко Тодоровић",
+			"Сербијана"
 		]
 	},
 	"cologneblue.css": "/* CSS постављен овде ће утицати на све кориснике теме „Келнско плава“ */",
 	"cologneblue.js": "/* Јаваскрипт постављен овде ће се учитати за све оне који користе тему „Келнско плава“ */",
 	"skinname-cologneblue": "Келнско плава",
-	"cologneblue-desc": "Лагана тема са минималним форматирањем"
+	"cologneblue-desc": "Лагана тема са минималним форматирањем",
+	"qbfind": "Пронађи",
+	"qbbrowse": "Потражи",
+	"qbedit": "Уреди",
+	"qbpageoptions": "Ова страница",
+	"qbmyoptions": "Моје странице",
+	"faqpage": "Project:НПП",
+	"editthispage": "Уреди ову страницу",
+	"create-this-page": "Направи ову страницу",
+	"deletethispage": "Обриши ову страницу",
+	"undeletethispage": "Врати ову страницу",
+	"protectthispage": "Заштити ову страницу",
+	"unprotectthispage": "Промени заштиту ове странице",
+	"talkpage": "Разговор ове странице",
+	"articlepage": "Погледај страницу са садржајем",
+	"userpage": "Погледај корисничку страницу",
+	"projectpage": "Погледај страницу пројекта"
 }

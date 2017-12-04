@@ -2,9 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Sagan"
+			"Sagan",
+			"Haqmar",
+			"Ләйсән"
 		]
 	},
 	"skinname-cologneblue": "Кёльн һағышы",
-	"cologneblue-desc": "Минималь форматлау булған еңел тема."
+	"cologneblue-desc": "Минималь форматлау булған еңел тема.",
+	"qbfind": "Эҙләү",
+	"qbbrowse": "Байҡарға",
+	"qbedit": "Үҙгәртергә",
+	"qbpageoptions": "Был бит",
+	"qbmyoptions": "Биттәрем",
+	"faqpage": "Project:ЙБҺ",
+	"editthispage": "Был мәҡәләне үҙгәртергә",
+	"create-this-page": "Был битте яһарға",
+	"deletethispage": "Был битте юйырға",
+	"undeletethispage": "Юйылған битте ҡабат тергеҙеү",
+	"protectthispage": "Был битте һаҡларға",
+	"unprotectthispage": "Был биттең һаҡлауын үҙгәртергә",
+	"talkpage": "Фекер алышыу",
+	"articlepage": "Мәҡәләне ҡарап сығырға",
+	"userpage": "Ҡулланыусы битен ҡарарға",
+	"projectpage": "Проект битен ҡарарға"
 }

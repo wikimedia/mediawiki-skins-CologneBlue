@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"Luthfi94",
+			"VoteITP"
 		]
 	},
-	"skinname-cologneblue": "Biru Köln"
+	"skinname-cologneblue": "Biru Köln",
+	"qbfind": "Cari",
+	"qbbrowse": "Jalajah",
+	"qbedit": "Suntiang",
+	"qbpageoptions": "Laman ko",
+	"qbmyoptions": "Laman denai",
+	"faqpage": "Project:FAQ",
+	"editthispage": "Suntiang laman ko",
+	"create-this-page": "Buek laman ko",
+	"deletethispage": "Hapuih laman ko",
+	"protectthispage": "Linduangi laman ko",
+	"unprotectthispage": "Tuka palindungan laman ko",
+	"talkpage": "Rundiangkan laman ko",
+	"articlepage": "Lihek isi laman",
+	"userpage": "Lihek laman pangguno",
+	"projectpage": "Caliak laman proyek"
 }

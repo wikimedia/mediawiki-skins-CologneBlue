@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dakrismeno",
+			"Insübrich",
+			"Ninonino"
+		]
+	},
+	"qbfind": "Tröva",
+	"qbbrowse": "Fà passà",
+	"qbedit": "Mudifega",
+	"qbpageoptions": "Opzión de la pagina",
+	"qbmyoptions": "I mè paginn",
+	"faqpage": "Project:Dumand frequent",
+	"editthispage": "Mudifega quela pagina chi",
+	"create-this-page": "Crea quela pagina chi",
+	"deletethispage": "Scancela quela pagina chì",
+	"undeletethispage": "Recüpera chèsta pàgina",
+	"protectthispage": "Prutegg quela pagina chì",
+	"unprotectthispage": "Càmbia la protesiù de chèsta pàgina",
+	"talkpage": "Discüssión",
+	"articlepage": "Varda l'articul",
+	"userpage": "Vidè la pàgina del dovrat",
+	"projectpage": "Varda la pagina de servizzi"
+}

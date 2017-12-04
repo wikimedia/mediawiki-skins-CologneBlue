@@ -3,11 +3,30 @@
 		"authors": [
 			"Arifin.wijaya",
 			"Bennylin",
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"-iNu-",
+			"Borgx",
+			"Farras"
 		]
 	},
 	"cologneblue.css": "/* CSS yang ada di sini akan diterapkan pada kulit Cologne Blue. */",
 	"cologneblue.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Cologne Blue */",
 	"skinname-cologneblue": "Biru Köln",
-	"cologneblue-desc": "Kulit yang ringan dengan format minimal"
+	"cologneblue-desc": "Kulit yang ringan dengan format minimal",
+	"qbfind": "Pencarian",
+	"qbbrowse": "Navigasi",
+	"qbedit": "Sunting",
+	"qbpageoptions": "Halaman ini",
+	"qbmyoptions": "Halaman saya",
+	"faqpage": "Project:FAQ",
+	"editthispage": "Sunting halaman ini",
+	"create-this-page": "Buat halaman ini",
+	"deletethispage": "Hapus halaman ini",
+	"undeletethispage": "Batalkan penghapusan",
+	"protectthispage": "Lindungi halaman ini",
+	"unprotectthispage": "Ubah perlindungan halaman ini",
+	"talkpage": "Bicarakan halaman ini",
+	"articlepage": "Lihat halaman isi",
+	"userpage": "Lihat halaman pengguna",
+	"projectpage": "Lihat halaman proyek"
 }

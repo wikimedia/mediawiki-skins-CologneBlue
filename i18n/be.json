@@ -1,9 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mechanizatar"
+			"Mechanizatar",
+			"Mienski",
+			"Yury Tarasievich",
+			"Хомелка",
+			"Чаховіч Уладзіслаў"
 		]
 	},
 	"skinname-cologneblue": "Сіні Кёльн",
-	"cologneblue-desc": "Лёгкая тэма афармлення з мінімальным фарматаваннем"
+	"cologneblue-desc": "Лёгкая тэма афармлення з мінімальным фарматаваннем",
+	"qbfind": "Знайсці",
+	"qbbrowse": "Выбраць",
+	"qbedit": "Правіць",
+	"qbpageoptions": "Гэтая старонка",
+	"qbmyoptions": "Свае старонкі",
+	"faqpage": "Project:ЧАПЫ",
+	"editthispage": "Правіць гэту старонку",
+	"create-this-page": "Стварыць старонку",
+	"deletethispage": "Сцерці гэту старонку",
+	"undeletethispage": "Аднавіць гэту старонку",
+	"protectthispage": "Пачаць ахоўваць гэтую старонку",
+	"unprotectthispage": "Змяніць ахову гэтай старонкі",
+	"talkpage": "Размовы пра гэтую старонку",
+	"articlepage": "Паказаць старонку змесціва",
+	"userpage": "Паказаць старонку ўдзельніка",
+	"projectpage": "Паказаць старонку праекта"
 }

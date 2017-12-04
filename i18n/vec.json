@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alunardon90",
+			"Candalua",
+			"Vajotwo"
+		]
+	},
+	"qbfind": "Trova",
+	"qbbrowse": "Sfoja",
+	"qbedit": "Canbia",
+	"qbpageoptions": "Opsion pajina",
+	"qbmyoptions": "Łe me pajine",
+	"faqpage": "Project:Domande frequenti",
+	"editthispage": "Canbia sta pagina",
+	"create-this-page": "Crea sta pagina",
+	"deletethispage": "Scansela sta pagina",
+	"undeletethispage": "Recupera sta pagina",
+	"protectthispage": "Protezi sta pagina",
+	"unprotectthispage": "Canbia ła protesion de sta pajina",
+	"talkpage": "Pagina de discussion",
+	"articlepage": "Varda ła voxe",
+	"userpage": "Varda la pagina utente",
+	"projectpage": "Varda la pagina de progeto"
+}

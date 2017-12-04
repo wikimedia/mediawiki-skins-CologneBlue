@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adam-Yourist",
+			"ElizaMag",
+			"Sapral Mikail"
+		]
+	},
+	"qbfind": "Лахар",
+	"qbbrowse": "БIаргтохар",
+	"qbedit": "Нийсде",
+	"qbpageoptions": "ОагIон оттамаш",
+	"qbmyoptions": "Хьа гIирсаш тоаяраш",
+	"faqpage": "Project:КТХ",
+	"editthispage": "Нийсъе ер оагIув",
+	"create-this-page": "Хьакхолла ер оагӀув",
+	"deletethispage": "ДӀаяккха ер оагӀув",
+	"undeletethispage": "Юхаметтаоттае ер оагӀув",
+	"protectthispage": "ГIо (лорадар) де укх оагIон",
+	"unprotectthispage": "Укх оагIон гIо (лорадар) хувца",
+	"talkpage": "Ер оагIув ювца",
+	"articlepage": "БIаргтоха оагIонга",
+	"userpage": "Доакъашхочун оагIон бIаргтоха",
+	"projectpage": "Проекта оагIон бIаргтоха"
+}

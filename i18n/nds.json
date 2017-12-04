@@ -1,4 +1,24 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Kölsch Blau"
+	"@metadata": {
+		"authors": [
+			"Slomox",
+			"Zylbath"
+		]
+	},
+	"skinname-cologneblue": "Kölsch Blau",
+	"qbfind": "Finnen",
+	"qbbrowse": "Blädern",
+	"qbedit": "Ännern",
+	"qbpageoptions": "Disse Sied",
+	"qbmyoptions": "Instellen",
+	"faqpage": "Project:Faken stellte Fragen",
+	"editthispage": "Disse Siet ännern",
+	"create-this-page": "Siet opstellen",
+	"deletethispage": "Disse Siet wegsmieten",
+	"protectthispage": "Siet schulen",
+	"unprotectthispage": "Siedenschuul ännern",
+	"talkpage": "Diskuschoon",
+	"articlepage": "Artikel",
+	"userpage": "Brukersiet ankieken",
+	"projectpage": "Meta-Text"
 }

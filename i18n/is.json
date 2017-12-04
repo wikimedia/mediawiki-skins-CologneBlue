@@ -1,11 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Jóna Þórunn",
+			"S.Örvarr.S",
+			"Snævar",
+			"Steinninn"
 		]
 	},
 	"cologneblue.css": "/* Allt CSS sem sett er hér mun  hafa áhrif á alla notendur Kölnarblátt-skinnsins. */",
 	"cologneblue.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur Kölnarblátt-skinnsins. */",
 	"skinname-cologneblue": "Kölnarblátt",
-	"cologneblue-desc": "Létt skinn með lágmarks-sniðum"
+	"cologneblue-desc": "Létt skinn með lágmarks-sniðum",
+	"qbfind": "Finna",
+	"qbbrowse": "Flakka",
+	"qbedit": "Breyta",
+	"qbpageoptions": "Þessi síða",
+	"qbmyoptions": "Mínar síður",
+	"faqpage": "Project:Algengar spurningar",
+	"editthispage": "Breyta þessari síðu",
+	"create-this-page": "Skapa þessari síðu",
+	"deletethispage": "Eyða þessari síðu",
+	"undeletethispage": "Endurvekja þessa síðu",
+	"protectthispage": "Vernda þessa síðu",
+	"unprotectthispage": "Afvernda þessa síðu",
+	"talkpage": "Ræða um þessa síðu",
+	"articlepage": "Sýna núverandi síðu",
+	"userpage": "Skoða notandasíðu",
+	"projectpage": "Skoða verkefnissíðu"
 }

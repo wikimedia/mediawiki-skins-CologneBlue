@@ -2,11 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"Cheers!"
 		]
 	},
 	"cologneblue.css": "/* Mã CSS tại đây sẽ ảnh hưởng đến những người dùng sử dụng giao diện Xanh Cologne */",
 	"cologneblue.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Xanh Cologne */",
 	"skinname-cologneblue": "Xanh Cologne",
-	"cologneblue-desc": "Giao diện nhẹ nhàng có ít định dạng"
+	"cologneblue-desc": "Giao diện nhẹ nhàng có ít định dạng",
+	"qbfind": "Tìm kiếm",
+	"qbbrowse": "Duyệt",
+	"qbedit": "Sửa đổi",
+	"qbpageoptions": "Trang này",
+	"qbmyoptions": "Trang cá nhân",
+	"faqpage": "Project:Các câu hỏi thường gặp",
+	"editthispage": "Sửa đổi trang này",
+	"create-this-page": "Tạo trang này",
+	"deletethispage": "Xóa trang này",
+	"undeletethispage": "Phục hồi trang này",
+	"protectthispage": "Khóa trang này",
+	"unprotectthispage": "Thay đổi mức khóa của trang này",
+	"talkpage": "Thảo luận về trang này",
+	"articlepage": "Xem trang nội dung",
+	"userpage": "Xem trang thành viên",
+	"projectpage": "Xem trang dự án"
 }

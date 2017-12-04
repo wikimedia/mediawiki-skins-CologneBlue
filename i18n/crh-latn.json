@@ -1,4 +1,23 @@
 {
-	"@metadata": [],
-	"skinname-cologneblue": "Köln asretligi"
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"skinname-cologneblue": "Köln asretligi",
+	"qbfind": "Tap",
+	"qbbrowse": "Baqıp çıq",
+	"qbedit": "Deñiştir",
+	"qbpageoptions": "Bu saife",
+	"qbmyoptions": "Saifelerim",
+	"faqpage": "Project:Sıq berilgen sualler",
+	"editthispage": "Saifeni deñiştir",
+	"create-this-page": "Bu saifeni yarat",
+	"deletethispage": "Saifeni yoq et",
+	"protectthispage": "Saifeni qorçalav altına al",
+	"unprotectthispage": "Saife qorçalanuvını deñiştir",
+	"talkpage": "Saifeni muzakere et",
+	"articlepage": "Saifege bar",
+	"userpage": "Qullanıcı saifesini köster",
+	"projectpage": "Leyha saifesini köster"
 }

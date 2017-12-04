@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gazimagomedov"
+			"Gazimagomedov",
+			"Amire80",
+			"Аль-Гимравий"
 		]
 	},
-	"cologneblue-desc": "Бищун дагьаб форматированиегун бигьаяб куцалъул тема"
+	"cologneblue-desc": "Бищун дагьаб форматированиегун бигьаяб куцалъул тема",
+	"qbfind": "ЦӀехезе",
+	"qbbrowse": "Балагьизе",
+	"qbedit": "Хисизабизе",
+	"qbpageoptions": "Гьумералъул рекъезаби",
+	"qbmyoptions": "Дур рекъезаби",
+	"editthispage": "Гьаб гьубер хисизабизе",
+	"create-this-page": "Гьаб гьаб гьумер гьабизе",
+	"deletethispage": "Гьаб гьумер нахъе бацӀцӀине",
+	"undeletethispage": "Гьаб гьумер цӀигьабизе",
+	"protectthispage": "Гьаб гьумер цIунизе",
+	"unprotectthispage": "Гьаб гьумералъул цӀуни хисизабизе",
+	"talkpage": "БахӀс",
+	"articlepage": "Макъалаялде балагьизе",
+	"userpage": "ГӀахьалчиясул гьумералъухъ балагьизе",
+	"projectpage": "Проекталъул гьумералъухъ балагьизе"
 }
