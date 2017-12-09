@@ -44,7 +44,7 @@
 	},
 	"AutoloadClasses": {
 		"SkinCologneBlue": "SkinCologneBlue.php",
-		"CologneBlueTemplate": "SkinCologneBlue.php"
+		"CologneBlueTemplate": "CologneBlueTemplate.php"
 	},
 	"manifest_version": 1
 }
