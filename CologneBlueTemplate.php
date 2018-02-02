@@ -350,10 +350,10 @@ class CologneBlueTemplate extends BaseTemplate {
 		$this->text( 'pageLanguage' );
 		?>"><?php echo $this->data['title'] ?></h1>
 		<?php
-		if ( $this->translator->translate( 'tagline' ) ) {
+		if ( wfMessage( 'tagline' )->text() ) {
 			?>
 			<p class="tagline"><?php
-				echo htmlspecialchars( $this->translator->translate( 'tagline' ) )
+				echo htmlspecialchars( wfMessage( 'tagline' )->text() )
 				?></p>
 		<?php
 		}
