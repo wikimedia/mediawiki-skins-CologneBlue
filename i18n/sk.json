@@ -3,12 +3,14 @@
 		"authors": [
 			"Helix84",
 			"Rudko",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"TomášPolonec"
 		]
 	},
 	"cologneblue.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Kolínska modrá */",
 	"cologneblue.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Kolínska modrá */",
 	"skinname-cologneblue": "Kolínska modrá",
+	"cologneblue-desc": "Odľahčený vzhľad s minimálnym formátovaním",
 	"qbfind": "Hľadať",
 	"qbbrowse": "Prehliadať",
 	"qbedit": "Upraviť",
