@@ -22,7 +22,6 @@
 	},
 	"ResourceModules": {
 		"skins.cologneblue": {
-			"position": "top",
 			"styles": {
 				"resources/screen.css": {
 					"media": "screen"
