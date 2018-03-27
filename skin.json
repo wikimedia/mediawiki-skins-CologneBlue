@@ -38,6 +38,7 @@
 	},
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {
+			"+oojs-ui-core.styles": "resources/ooui.less",
 			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
 		}
 	},
