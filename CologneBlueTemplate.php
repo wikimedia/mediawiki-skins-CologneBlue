@@ -119,7 +119,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @param string $key Key to be passed to makeListItem()
 	 * @param array $navlink Navlink suitable for processNavlinkForDocument()
-	 * @param string $message Key of the message to use in place of standard text
+	 * @param string|null $message Key of the message to use in place of standard text
 	 *
 	 * @return string
 	 */
