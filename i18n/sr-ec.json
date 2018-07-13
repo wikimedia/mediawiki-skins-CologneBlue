@@ -15,7 +15,7 @@
 	"skinname-cologneblue": "Келнско плава",
 	"cologneblue-desc": "Лагана тема са минималним форматирањем",
 	"qbfind": "Пронађи",
-	"qbbrowse": "Потражи",
+	"qbbrowse": "Преглед",
 	"qbedit": "Уреди",
 	"qbpageoptions": "Ова страница",
 	"qbmyoptions": "Моје странице",
@@ -26,7 +26,7 @@
 	"undeletethispage": "Врати ову страницу",
 	"protectthispage": "Заштити ову страницу",
 	"unprotectthispage": "Промени заштиту ове странице",
-	"talkpage": "Разговор ове странице",
+	"talkpage": "Разговор о овој страници",
 	"articlepage": "Погледај страницу са садржајем",
 	"userpage": "Погледај корисничку страницу",
 	"projectpage": "Погледај страницу пројекта"
