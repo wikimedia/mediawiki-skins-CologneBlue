@@ -207,6 +207,12 @@ a.new,
 	color: #c20;
 }
 
+a.mw-selflink {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: inherit;
+}
+
 h2,
 h3,
 h4,
