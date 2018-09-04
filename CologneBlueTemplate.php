@@ -77,8 +77,8 @@ class CologneBlueTemplate extends BaseTemplate {
 				$s[] = $this->makeListItem( $key, $data, [ 'tag' => 'span' ] );
 			}
 
-			$html = wfMessage( 'otherlanguages' )->text()
-				. wfMessage( 'colon-separator' )->text()
+			$html = wfMessage( 'otherlanguages' )->escaped()
+				. wfMessage( 'colon-separator' )->escaped()
 				. $this->getSkin()->getLanguage()->pipeList( $s );
 		}
 
@@ -439,7 +439,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$this->getSkin()->mainPageLink(),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'aboutpage' )->inContentLanguage()->text() ),
-				wfMessage( 'about' )->text()
+				wfMessage( 'about' )->escaped()
 			),
 			Linker::makeExternalLink(
 				Skin::makeInternalOrExternalUrl( wfMessage( 'helppage' )->inContentLanguage()->text() ),
@@ -448,7 +448,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			),
 			Linker::linkKnown(
 				Title::newFromText( wfMessage( 'faqpage' )->inContentLanguage()->text() ),
-				wfMessage( 'faq' )->text()
+				wfMessage( 'faq' )->escaped()
 			),
 		];
 
@@ -574,11 +574,12 @@ class CologneBlueTemplate extends BaseTemplate {
 
 			$portletId = Sanitizer::escapeId( "p-$heading" );
 			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
-			$headingHTML = "<h3>";
-			$headingHTML .= $headingMsg->exists()
-				? $headingMsg->escaped()
-				: htmlspecialchars( $heading );
-			$headingHTML .= "</h3>";
+			if ( $headingMsg->exists() ) {
+				$headingHTML = $headingMsg->escaped();
+			} else {
+				$headingHTML = htmlspecialchars( $heading );
+			}
+			$headingHTML = "<h3>{$headingHTML}</h3>";
 			$listHTML = "";
 
 			if ( is_array( $data ) ) {
@@ -599,8 +600,11 @@ class CologneBlueTemplate extends BaseTemplate {
 
 			if ( $listHTML ) {
 				$role = ( $heading == 'search' ) ? 'search' : 'navigation';
-				$s .= "<div class=\"portlet\" id=\"$portletId\" "
-					. "role=\"$role\">\n$headingHTML\n$listHTML\n</div>\n";
+				$s .= Html::rawElement( 'div', [
+					'class' => 'portlet',
+					'id' => $portletId,
+					'role' => $role,
+				], "$headingHTML\n$listHTML" );
 			}
 
 			$s .= $this->renderAfterPortlet( $heading );
