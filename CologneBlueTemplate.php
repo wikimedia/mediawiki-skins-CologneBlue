@@ -513,8 +513,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @access private
 	 * @suppress SecurityCheck-DoubleEscaped phan-taint-check can't distinguish
 	 *  between different array keys/values that have different taints.
-	 * @suppress SecurityCheck-XSS phan-taint-check has trouble with the case
-	 *  where $data is a string.
+	 * @return-taint onlysafefor_html
 	 *
 	 * @return string
 	 */
