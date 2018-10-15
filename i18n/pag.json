@@ -1,6 +1,11 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
 	"qbpageoptions": "Ayan bolong",
+	"create-this-page": "Palsaen yan bolong",
 	"deletethispage": "Buralen so ayan page",
 	"protectthispage": "Iyagel yan bolong",
 	"unprotectthispage": "Aga la iyagel yan bolong",
