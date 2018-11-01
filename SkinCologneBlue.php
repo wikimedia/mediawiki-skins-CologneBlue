@@ -33,7 +33,7 @@ class SkinCologneBlue extends SkinTemplate {
 	/**
 	 * @param OutputPage $out
 	 */
-	function setupSkinUserCss( OutputPage $out ) {
+	public function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'mediawiki.legacy.oldshared' );
 		$out->addModuleStyles( 'skins.cologneblue' );
@@ -45,7 +45,7 @@ class SkinCologneBlue extends SkinTemplate {
 	 * @param string $name
 	 * @return string
 	 */
-	function formatLanguageName( $name ) {
+	public function formatLanguageName( $name ) {
 		return $name;
 	}
 }

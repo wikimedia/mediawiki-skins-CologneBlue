@@ -28,7 +28,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * Run the skin and build html
 	 */
-	function execute() {
+	public function execute() {
 		// Suppress warnings to prevent notices about missing indexes in $this->data
 		wfSuppressWarnings();
 		$this->html( 'headelement' );
@@ -46,7 +46,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * Language/charset variant links for classic-style skins
 	 * @return string
 	 */
-	function variantLinks() {
+	private function variantLinks() {
 		$s = [];
 
 		$variants = $this->data['content_navigation']['variants'];
@@ -61,7 +61,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function otherLanguages() {
+	private function otherLanguages() {
 		if ( $this->config->get( 'HideInterlanguageLinks' ) ) {
 			return "";
 		}
@@ -103,7 +103,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function pageTitleLinks() {
+	private function pageTitleLinks() {
 		$s = [];
 		$footlinks = $this->getFooterLinks();
 
@@ -123,7 +123,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @return string
 	 */
-	function processBottomLink( $key, $navlink, $message = null ) {
+	private function processBottomLink( $key, $navlink, $message = null ) {
 		if ( !$navlink ) {
 			// Empty navlinks might be passed.
 			return null;
@@ -143,7 +143,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function bottomLinks() {
+	private function bottomLinks() {
 		$toolbox = $this->getToolbox();
 		$content_nav = $this->data['content_navigation'];
 
@@ -232,7 +232,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function talkLink() {
+	private function talkLink() {
 		$title = $this->getSkin()->getTitle();
 
 		if ( $title->getNamespace() == NS_SPECIAL ) {
@@ -291,7 +291,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *   is removed entirely. Default is 'cb-'.
 	 * @return array
 	 */
-	function processNavlinkForDocument( $navlink, $idPrefix = 'cb-' ) {
+	private function processNavlinkForDocument( $navlink, $idPrefix = 'cb-' ) {
 		if ( $navlink['id'] ) {
 			$navlink['single-id'] = $navlink['id']; // to allow for tooltip generation
 			$navlink['tooltiponly'] = true; // but no accesskeys
@@ -310,7 +310,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function beforeContent() {
+	private function beforeContent() {
 		ob_start();
 		?>
 		<div id="content">
@@ -382,7 +382,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function afterContent() {
+	private function afterContent() {
 		ob_start();
 		?>
 		</div>
@@ -434,7 +434,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	/**
 	 * @return string
 	 */
-	function sysLinks() {
+	private function sysLinks() {
 		$s = [
 			$this->getSkin()->mainPageLink(),
 			Linker::linkKnown(
@@ -468,7 +468,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param array $bar Sidebar data
 	 * @return array Modified sidebar data
 	 */
-	function sidebarAdditions( $bar ) {
+	private function sidebarAdditions( $bar ) {
 		// "This page" and "Edit" menus
 		// We need to do some massaging here... we reuse all of the items,
 		// except for $...['views']['view'], as $...['namespaces']['main'] and
@@ -517,7 +517,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @return string
 	 */
-	function quickBar() {
+	private function quickBar() {
 		// Massage the sidebar. We want to:
 		// * place SEARCH at the beginning
 		// * add new portlets before TOOLBOX (or at the end, if it's missing)
@@ -622,7 +622,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param string $which
 	 * @return string
 	 */
-	function searchForm( $which ) {
+	private function searchForm( $which ) {
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
 		$action = $this->data['searchaction'];
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
