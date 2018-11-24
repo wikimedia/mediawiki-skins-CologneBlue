@@ -235,8 +235,8 @@ class CologneBlueTemplate extends BaseTemplate {
 	private function talkLink() {
 		$title = $this->getSkin()->getTitle();
 
-		if ( $title->getNamespace() == NS_SPECIAL ) {
-			// No discussion links for special pages
+		if ( !$title->canHaveTalkPage() ) {
+			// No discussion link if talk page cannot exist
 			return "";
 		}
 
