@@ -6,7 +6,8 @@
 			"Aefgh39622",
 			"Ans",
 			"Horus",
-			"Passawuth"
+			"Passawuth",
+			"Geonuch"
 		]
 	},
 	"cologneblue.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินโคโลญจ์บลู */",
@@ -21,9 +22,9 @@
 	"editthispage": "แก้ไขหน้านี้",
 	"create-this-page": "สร้างหน้านี้",
 	"deletethispage": "ลบหน้านี้",
-	"undeletethispage": "กู้คืนหน้านี้",
-	"protectthispage": "ล็อกหน้านี้",
-	"unprotectthispage": "เปลี่ยนการล็อกหน้านี้",
+	"undeletethispage": "ไม่ลบหน้านี้",
+	"protectthispage": "ป้องกันหน้านี้",
+	"unprotectthispage": "เปลี่ยนการป้องกันหน้านี้",
 	"talkpage": "อภิปรายหน้านี้",
 	"articlepage": "ดูหน้าเนื้อหา",
 	"userpage": "ดูหน้าผู้ใช้",
