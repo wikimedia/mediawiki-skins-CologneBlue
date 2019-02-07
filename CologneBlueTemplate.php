@@ -510,7 +510,7 @@ class CologneBlueTemplate extends BaseTemplate {
 
 	/**
 	 * Compute the sidebar
-	 * @access private
+	 * @private
 	 * @suppress SecurityCheck-DoubleEscaped phan-taint-check can't distinguish
 	 *  between different array keys/values that have different taints.
 	 * @return-taint onlysafefor_html
