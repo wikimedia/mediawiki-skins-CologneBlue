@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bjankuloski06",
-			"Brest"
+			"Brest",
+			"Vlad5250"
 		]
 	},
 	"cologneblue.css": "/* Тука поставениот CSS ќе се применува врз корисниците што го избрале рувото „Келнско сино“ */",
@@ -18,7 +19,7 @@
 	"editthispage": "Уреди ја страницава",
 	"create-this-page": "Создај ја страницава",
 	"deletethispage": "Избриши ја страницава",
-	"undeletethispage": "обнови ја страницава",
+	"undeletethispage": "Обнови ја страницава",
 	"protectthispage": "Заштити ја страницава",
 	"unprotectthispage": "Измена на заштитата на страницава",
 	"talkpage": "Разговор",
