@@ -30,7 +30,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 */
 	public function execute() {
 		// Suppress warnings to prevent notices about missing indexes in $this->data
-		wfSuppressWarnings();
+		Wikimedia\suppressWarnings();
 		$this->html( 'headelement' );
 		echo $this->beforeContent();
 		$this->html( 'bodytext' );
@@ -39,7 +39,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$this->html( 'dataAfterContent' );
 		$this->printTrail();
 		echo "\n</body></html>";
-		wfRestoreWarnings();
+		Wikimedia\restoreWarnings();
 	}
 
 	/**
