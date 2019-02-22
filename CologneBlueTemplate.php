@@ -575,7 +575,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			// Numeric strings gets an integer when set as key, cast back - T73639
 			$heading = (string)$heading;
 
-			$portletId = Sanitizer::escapeId( "p-$heading" );
+			$portletId = Sanitizer::escapeIdForAttribute( "p-$heading" );
 			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
 			if ( $headingMsg->exists() ) {
 				$headingHTML = $headingMsg->escaped();
