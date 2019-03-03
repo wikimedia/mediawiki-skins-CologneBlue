@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"StanProg",
-			"DCLXVI"
+			"DCLXVI",
+			"Vlad5250"
 		]
 	},
 	"skinname-cologneblue": "Кьолнско синьо",
-	"cologneblue-desc": "Олекотен облик с минимално форматиране",
+	"cologneblue-desc": "Олекотен облик с най-малко форматиране",
 	"qbfind": "Търсене",
 	"qbbrowse": "Избор",
 	"qbedit": "Редактиране",
