@@ -225,6 +225,10 @@ small {
 	font-size: 75%;
 }
 
+.mw-empty-elt {
+	display: none;
+}
+
 input.mw-searchInput {
 	width: 106px;
 }
