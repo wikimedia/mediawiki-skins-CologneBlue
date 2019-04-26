@@ -6,13 +6,14 @@
 			"McSalama",
 			"Nike",
 			"Pxos",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"cologneblue.css": "/* Tämä sivu sisältää Kölnin sininen -ulkoasua muuttavia tyylejä. */",
 	"cologneblue.js": "/* Tämän sivun JavaScript-koodi liitetään Kölnin sininen -tyyliin */",
 	"skinname-cologneblue": "Kölnin sininen",
-	"cologneblue-desc": "Kevyt teema minimaalisella muotoilulla",
+	"cologneblue-desc": "Kevyt ulkoasu minimaalisella muotoilulla",
 	"qbfind": "Etsi",
 	"qbbrowse": "Selaa",
 	"qbedit": "Muokkaa",
