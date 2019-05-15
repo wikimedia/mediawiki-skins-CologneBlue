@@ -8,12 +8,14 @@
 			"Robin van der Vliet",
 			"Tlustulimu",
 			"Yekrats",
-			"YvesNevelsteen"
+			"YvesNevelsteen",
+			"Mirin"
 		]
 	},
 	"cologneblue.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Kolonja Blua temo. */",
 	"cologneblue.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Kolonja Blua temo. */",
 	"skinname-cologneblue": "Kolonja Bluo",
+	"cologneblue-desc": "Leĝera etoso kun minimuma aranĝado",
 	"qbfind": "Serĉi",
 	"qbbrowse": "Foliumi",
 	"qbedit": "Redakti",
