@@ -624,7 +624,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 */
 	private function searchForm( $which ) {
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
-		$action = $this->data['searchaction'];
+		$action = htmlspecialchars( $this->data['searchaction'] );
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
 			. "\" method=\"get\" class=\"inline\" action=\"$action\">";
 		if ( $which == 'footer' ) {
