@@ -483,6 +483,7 @@ class CologneBlueTemplate extends BaseTemplate {
 				'unwatch' => $content_navigation['actions']['unwatch'],
 			]
 		);
+		// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 		$content_navigation['actions']['watch'] = null;
 		$content_navigation['actions']['unwatch'] = null;
 		$qbEditLinks = [ 'edit' => $content_navigation['views']['edit'] ];
@@ -576,7 +577,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$heading = (string)$heading;
 
 			$portletId = Sanitizer::escapeIdForAttribute( "p-$heading" );
-			$headingMsg = wfMessage( $idToMessage[$heading] ? $idToMessage[$heading] : $heading );
+			$headingMsg = wfMessage( $idToMessage[$heading] ?: $heading );
 			if ( $headingMsg->exists() ) {
 				$headingHTML = $headingMsg->escaped();
 			} else {
