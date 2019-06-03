@@ -43,8 +43,8 @@
 		}
 	},
 	"AutoloadClasses": {
-		"SkinCologneBlue": "SkinCologneBlue.php",
-		"CologneBlueTemplate": "CologneBlueTemplate.php"
+		"SkinCologneBlue": "includes/SkinCologneBlue.php",
+		"CologneBlueTemplate": "includes/CologneBlueTemplate.php"
 	},
 	"manifest_version": 1
 }
