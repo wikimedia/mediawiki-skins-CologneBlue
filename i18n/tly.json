@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Гусейн"
+			"Гусейн",
+			"Patriot Kur"
 		]
 	},
-	"qbfind": "Нәве",
+	"qbfind": "Pəydu karde",
 	"qbbrowse": "Дијә кардеј",
 	"qbedit": "Сәрост кардеј",
 	"qbpageoptions": "Ым сәһифә",
@@ -12,7 +13,7 @@
 	"faqpage": "Project:РАП",
 	"editthispage": "Ым сәһифә сәрост кардеј",
 	"create-this-page": "Ым сәһифә офәјеј",
-	"deletethispage": "Ым сәһифә рәдд кәрдеј",
+	"deletethispage": "Im səhifə poz karde",
 	"protectthispage": "Ым сәһифә мыдофијә кардеј",
 	"unprotectthispage": "Ын сәһифә мыдофијә дәгиш кардеј",
 	"talkpage": "Ым сәһифә мызокирә кардеј",
