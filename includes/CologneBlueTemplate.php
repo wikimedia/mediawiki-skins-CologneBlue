@@ -95,6 +95,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$content = '';
 		Hooks::run( 'BaseTemplateAfterPortlet', [ $this, $name, &$content ] );
 
+		// @phan-suppress-next-line PhanSuspiciousValueComparison May set by hook
 		$html = $content !== '' ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
 
 		return $html;
@@ -226,7 +227,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$lines[] = $this->otherLanguages();
 		}
 
-		return implode( array_filter( $lines ), "<br />\n" ) . "<br />\n";
+		return implode( "<br />\n", array_filter( $lines ) ) . "<br />\n";
 	}
 
 	/**
