@@ -122,7 +122,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param array $navlink Navlink suitable for processNavlinkForDocument()
 	 * @param string|null $message Key of the message to use in place of standard text
 	 *
-	 * @return string
+	 * @return string|null
 	 */
 	private function processBottomLink( $key, $navlink, $message = null ) {
 		if ( !$navlink ) {
