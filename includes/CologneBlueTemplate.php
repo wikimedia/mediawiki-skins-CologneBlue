@@ -467,6 +467,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @param array $bar Sidebar data
 	 * @return array Modified sidebar data
+	 * @suppress PhanTypeMismatchDimAssignment,PhanTypeInvalidDimOffset Complex array
 	 */
 	private function sidebarAdditions( $bar ) {
 		// "This page" and "Edit" menus
@@ -483,7 +484,6 @@ class CologneBlueTemplate extends BaseTemplate {
 				'unwatch' => $content_navigation['actions']['unwatch'],
 			]
 		);
-		// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 		$content_navigation['actions']['watch'] = null;
 		$content_navigation['actions']['unwatch'] = null;
 		$qbEditLinks = [ 'edit' => $content_navigation['views']['edit'] ];
