@@ -14,9 +14,9 @@
 			"VegaDark"
 		]
 	},
+	"skinname-cologneblue": "Colonia azul",
 	"cologneblue.css": "/* El CSS colocado en esta página afectará a los usuarios que usen la apariencia Cologne Blue */",
 	"cologneblue.js": "/* Cualquier código JavaScript escrito aquí se cargará para todos los usuarios que usen la apariencia Cologne Blue */",
-	"skinname-cologneblue": "Colonia azul",
 	"cologneblue-desc": "Una apariencia ligera con formato minimalista",
 	"qbfind": "Buscar",
 	"qbbrowse": "Navegar",

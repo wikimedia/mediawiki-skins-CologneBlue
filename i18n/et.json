@@ -5,9 +5,9 @@
 			"WikedKentaur"
 		]
 	},
+	"skinname-cologneblue": "Kölni sinine",
 	"cologneblue.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Kölni sinise kujunduse kasutajaid. */",
 	"cologneblue.js": "/* Siin asuv JavaScript laaditakse kõigi Kölni sinise kujunduse kasutajate jaoks. */",
-	"skinname-cologneblue": "Kölni sinine",
 	"cologneblue-desc": "Lihtne minimaalse vormistusega kujundus",
 	"qbfind": "Otsi",
 	"qbbrowse": "Sirvi",

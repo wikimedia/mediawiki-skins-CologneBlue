@@ -9,9 +9,9 @@
 			555
 		]
 	},
+	"skinname-cologneblue": "Azul Colonial",
 	"cologneblue.css": "/* CSS colocado aqui irá afetar usuários do tema Cologne Blue */",
 	"cologneblue.js": "/* Qualquer JavaScript aqui colocado sera carregado para usuários do tema Cologne Blue */",
-	"skinname-cologneblue": "Azul Colonial",
 	"cologneblue-desc": "Um tema leve com formatação mínima",
 	"qbfind": "Buscar",
 	"qbbrowse": "Navegar",

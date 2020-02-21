@@ -8,9 +8,9 @@
 			"Edinwiki"
 		]
 	},
+	"skinname-cologneblue": "Kelnsko plava",
 	"cologneblue.css": "/* CSS umetnut ovdje uticat će na korisnike koji koriste Cologne Blue skin */",
 	"cologneblue.js": "/* Bilo koja JavaScript će biti učitana za sve korisnike koji koriste Cologne Blue skin */",
-	"skinname-cologneblue": "Kelnsko plava",
 	"cologneblue-desc": "Lagahna tema s minimalnim formatiranjem",
 	"qbfind": "Pronađi",
 	"qbbrowse": "Potraži",

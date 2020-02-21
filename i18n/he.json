@@ -6,9 +6,9 @@
 			"Rotemliss"
 		]
 	},
+	"skinname-cologneblue": "מים כחולים",
 	"cologneblue.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"מים כחולים\" בלבד */",
 	"cologneblue.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"מים כחולים\" בלבד */",
-	"skinname-cologneblue": "מים כחולים",
 	"cologneblue-desc": "מעטפת קלה עם עיצוב מינימלי",
 	"qbfind": "חיפוש",
 	"qbbrowse": "ניווט",
