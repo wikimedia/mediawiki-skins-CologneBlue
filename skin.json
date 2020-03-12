@@ -25,6 +25,7 @@
 			"class": "ResourceLoaderSkinModule",
 			"features": [ "legacy" ],
 			"styles": {
+				"resources/oldshared.css": {},
 				"resources/screen.css": {
 					"media": "screen"
 				},
