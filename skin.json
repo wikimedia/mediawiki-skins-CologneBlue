@@ -22,6 +22,8 @@
 	},
 	"ResourceModules": {
 		"skins.cologneblue": {
+			"class": "ResourceLoaderSkinModule",
+			"features": [ "legacy" ],
 			"styles": {
 				"resources/screen.css": {
 					"media": "screen"
