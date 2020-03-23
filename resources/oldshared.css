@@ -385,12 +385,12 @@ body.ns-0 {
  * left-floated objects in an RTL layout.
  */
 /* @noflip */
-html > body.rtl div#article ul {
+html > body.rtl .mw-body ul {
 	display: table;
 }
 
 /* @noflip */
-html > body.rtl .mw-body ul#filetoc {
+html > body.rtl .mw-body #filetoc {
 	display: block;
 }
 
