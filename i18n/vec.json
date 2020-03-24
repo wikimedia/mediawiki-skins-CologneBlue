@@ -3,23 +3,28 @@
 		"authors": [
 			"Alunardon90",
 			"Candalua",
-			"Vajotwo"
+			"Vajotwo",
+			"Fierodelveneto"
 		]
 	},
-	"qbfind": "Trova",
+	"skinname-cologneblue": "Cologne Blue",
+	"cologneblue.css": "/* All CSS here will be loaded for users of the Cologne Blue skin */",
+	"cologneblue.js": "/* All JavaScript here will be loaded for users of the Cologne Blue skin */",
+	"cologneblue-desc": "Tema pejero co formatasion minima",
+	"qbfind": "Cata fora",
 	"qbbrowse": "Sfoja",
-	"qbedit": "Canbia",
+	"qbedit": "Modìfega",
 	"qbpageoptions": "Opsion pajina",
 	"qbmyoptions": "Łe me pajine",
-	"faqpage": "Project:Domande frequenti",
-	"editthispage": "Canbia sta pagina",
-	"create-this-page": "Crea sta pagina",
-	"deletethispage": "Scansela sta pagina",
-	"undeletethispage": "Recupera sta pagina",
-	"protectthispage": "Protezi sta pagina",
+	"faqpage": "Project:Domande pì fate",
+	"editthispage": "Canbia sta pajina",
+	"create-this-page": "Crea sta pajina",
+	"deletethispage": "Scançeła sta pajina",
+	"undeletethispage": "Recupara sta pajina",
+	"protectthispage": "Protexi sta pajina",
 	"unprotectthispage": "Canbia ła protesion de sta pajina",
-	"talkpage": "Pagina de discussion",
+	"talkpage": "Pajina de discusion",
 	"articlepage": "Varda ła voxe",
-	"userpage": "Varda la pagina utente",
-	"projectpage": "Varda la pagina de progeto"
+	"userpage": "Varda la pajina utente",
+	"projectpage": "Varda la pajina de projeto"
 }
