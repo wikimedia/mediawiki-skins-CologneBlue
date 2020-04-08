@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"qbedit": "Fa’ahuru ’ē",
 	"qbmyoptions": "ta’u ’api"
 }

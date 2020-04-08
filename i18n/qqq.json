@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25",
-			"Umherirrender",
-			"Shirayuki",
-			"Raymond",
 			"EugeneZelenko",
 			"Matma Rex",
+			"Meno25",
 			"Nemo bis",
 			"Orlodrim",
-			"Siddhartha Ghai"
+			"Raymond",
+			"Shirayuki",
+			"Siddhartha Ghai",
+			"Umherirrender"
 		]
 	},
 	"skinname-cologneblue": "{{name}}",
