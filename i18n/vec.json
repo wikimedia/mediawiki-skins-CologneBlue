@@ -3,6 +3,7 @@
 		"authors": [
 			"Alunardon90",
 			"Candalua",
+			"Conky77",
 			"Fierodelveneto",
 			"Vajotwo"
 		]
@@ -14,17 +15,17 @@
 	"qbfind": "Cata fora",
 	"qbbrowse": "Sfoja",
 	"qbedit": "Modìfega",
-	"qbpageoptions": "Opsion pajina",
+	"qbpageoptions": "Opsion pàjina",
 	"qbmyoptions": "Łe me pajine",
 	"faqpage": "Project:Domande pì fate",
-	"editthispage": "Canbia sta pajina",
-	"create-this-page": "Crea sta pajina",
-	"deletethispage": "Scançeła sta pajina",
+	"editthispage": "Canbia sta pàjina",
+	"create-this-page": "Crea sta pàjina",
+	"deletethispage": "Scançeła sta pàjina",
 	"undeletethispage": "Recupara sta pajina",
-	"protectthispage": "Protexi sta pajina",
-	"unprotectthispage": "Canbia ła protesion de sta pajina",
+	"protectthispage": "Protexi sta pàjina",
+	"unprotectthispage": "Canbia ła protesion de sta pàjina",
 	"talkpage": "Pajina de discusion",
 	"articlepage": "Varda ła voxe",
-	"userpage": "Varda la pajina utente",
+	"userpage": "Varda la pàjina utente",
 	"projectpage": "Varda la pajina de projeto"
 }
