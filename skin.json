@@ -50,5 +50,5 @@
 		"SkinCologneBlue": "includes/SkinCologneBlue.php",
 		"CologneBlueTemplate": "includes/CologneBlueTemplate.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
