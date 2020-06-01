@@ -62,10 +62,6 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function otherLanguages() {
-		if ( $this->config->get( 'HideInterlanguageLinks' ) ) {
-			return "";
-		}
-
 		$html = '';
 
 		// We override SkinTemplate->formatLanguageName() in SkinCologneBlue
@@ -77,8 +73,8 @@ class CologneBlueTemplate extends BaseTemplate {
 				$s[] = $this->makeListItem( $key, $data, [ 'tag' => 'span' ] );
 			}
 
-			$html = wfMessage( 'otherlanguages' )->escaped()
-				. wfMessage( 'colon-separator' )->escaped()
+			$html = $this->getMsg( 'otherlanguages' )->escaped()
+				. $this->getMsg( 'colon-separator' )->escaped()
 				. $this->getSkin()->getLanguage()->pipeList( $s );
 		}
 
@@ -131,7 +127,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		}
 
 		if ( $message ) {
-			$navlink['text'] = wfMessage( $message )->escaped();
+			$navlink['text'] = $this->getMsg( $message )->escaped();
 		}
 
 		return $this->makeListItem(
@@ -155,34 +151,38 @@ class CologneBlueTemplate extends BaseTemplate {
 			$element = [];
 
 			$editLinkMessage = $this->getSkin()->getTitle()->exists() ? 'editthispage' : 'create-this-page';
-			$element[] = $this->processBottomLink( 'edit', $content_nav['views']['edit'], $editLinkMessage );
-			$element[] = $this->processBottomLink(
-				'viewsource',
-				$content_nav['views']['viewsource'],
-				'viewsource'
-			);
 
-			$element[] = $this->processBottomLink(
-				'watch',
-				$content_nav['actions']['watch'],
-				'watchthispage'
-			);
-			$element[] = $this->processBottomLink(
-				'unwatch',
-				$content_nav['actions']['unwatch'],
-				'unwatchthispage'
-			);
+			$keys = [
+				'edit' => [ 'views', $editLinkMessage ],
+				'viewsource' => [ 'views', 'viewsource' ],
+				'watch' => [ 'actions', 'watchthispage' ],
+				'unwatch' => [ 'actions', 'unwatchthispage' ],
+				'history' => [ 'views', 'history' ]
+			];
 
-			$element[] = $this->talkLink();
+			foreach ( $keys as $key => $value ) {
+				$element[] = $this->processBottomLink(
+					$key,
+					$content_nav[ $value[0] ][$key],
+					$value[1]
+				);
+			}
 
-			$element[] = $this->processBottomLink( 'history', $content_nav['views']['history'], 'history' );
-			$element[] = $this->processBottomLink( 'info', $toolbox['info'] );
-			$element[] = $this->processBottomLink( 'whatlinkshere', $toolbox['whatlinkshere'] );
-			$element[] = $this->processBottomLink( 'recentchangeslinked', $toolbox['recentchangeslinked'] );
+			// Insert talk page link.
+			// This needs to be in-between the fourth and fifth elements above
+			array_splice( $element, -1, 0, $this->talkLink() );
 
-			$element[] = $this->processBottomLink( 'contributions', $toolbox['contributions'] );
+			$keys = [ 'info', 'whatlinkshere', 'recentchangeslinked', 'contributions' ];
+
 			if ( isset( $toolbox['emailuser'] ) ) {
-				$element[] = $this->processBottomLink( 'emailuser', $toolbox['emailuser'] );
+				$keys[] = 'emailuser';
+			}
+
+			foreach ( $keys as $key ) {
+				$element[] = $this->processBottomLink(
+					$key,
+					$toolbox[$key]
+				);
 			}
 
 			$lines[] = $this->getSkin()->getLanguage()->pipeList( array_filter( $element ) );
@@ -190,36 +190,17 @@ class CologneBlueTemplate extends BaseTemplate {
 			// Second row. Privileged actions.
 			$element = [];
 
-			$element[] = $this->processBottomLink(
-				'delete',
-				$content_nav['actions']['delete'],
-				'deletethispage'
-			);
-			if ( isset( $content_nav['actions']['undelete'] ) ) {
-				$element[] = $this->processBottomLink(
-					'undelete',
-					$content_nav['actions']['undelete'],
-					'undeletethispage'
-				);
-			}
+			$keys = [ 'delete', 'undelete', 'protect', 'unprotect', 'move' ];
 
-			if ( isset( $content_nav['actions']['protect'] ) ) {
-				$element[] = $this->processBottomLink(
-					'protect',
-					$content_nav['actions']['protect'],
-					'protectthispage'
-				);
+			foreach ( $keys as $key ) {
+				if ( isset( $content_nav['actions'][$key] ) ) {
+					$element[] = $this->processBottomLink(
+						$key,
+						$content_nav['actions'][$key],
+						$key . 'thispage'
+					);
+				}
 			}
-
-			if ( isset( $content_nav['actions']['unprotect'] ) ) {
-				$element[] = $this->processBottomLink(
-					'unprotect',
-					$content_nav['actions']['unprotect'],
-					'unprotectthispage'
-				);
-			}
-
-			$element[] = $this->processBottomLink( 'move', $content_nav['actions']['move'], 'movethispage' );
 
 			$lines[] = $this->getSkin()->getLanguage()->pipeList( array_filter( $element ) );
 
@@ -318,11 +299,11 @@ class CologneBlueTemplate extends BaseTemplate {
 		<div id="topbar">
 			<p id="sitetitle" role="banner">
 				<a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>">
-					<?php echo wfMessage( 'sitetitle' )->escaped() ?>
+					<?php echo $this->getMsg( 'sitetitle' )->escaped() ?>
 				</a>
 			</p>
 
-			<p id="sitesub"><?php echo wfMessage( 'sitesubtitle' )->escaped() ?></p>
+			<p id="sitesub"><?php echo $this->getMsg( 'sitesubtitle' )->escaped() ?></p>
 
 			<div id="linkcollection" role="navigation">
 				<div id="langlinks"><?php echo str_replace( '<br />', '', $this->otherLanguages() ) ?></div>
@@ -351,10 +332,10 @@ class CologneBlueTemplate extends BaseTemplate {
 		$this->text( 'pageLanguage' );
 		?>"><?php echo $this->data['title'] ?></h1>
 		<?php
-		if ( wfMessage( 'tagline' )->text() ) {
+		if ( $this->getMsg( 'tagline' )->text() ) {
 			?>
 			<p class="tagline"><?php
-				echo htmlspecialchars( wfMessage( 'tagline' )->text() )
+				echo htmlspecialchars( $this->getMsg( 'tagline' )->text() )
 				?></p>
 		<?php
 		}
@@ -416,7 +397,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		</div>
 		</div>
 		<div id="mw-navigation">
-			<h2><?php echo wfMessage( 'navigation-heading' )->escaped() ?></h2>
+			<h2><?php echo $this->getMsg( 'navigation-heading' )->escaped() ?></h2>
 
 			<div id="toplinks" role="navigation">
 				<p id="syslinks"><?php echo $this->sysLinks() ?></p>
@@ -439,16 +420,16 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s = [
 			$this->getSkin()->mainPageLink(),
 			Linker::linkKnown(
-				Title::newFromText( wfMessage( 'aboutpage' )->inContentLanguage()->text() ),
-				wfMessage( 'about' )->escaped()
+				Title::newFromText( $this->getMsg( 'aboutpage' )->inContentLanguage()->text() ),
+				$this->getMsg( 'about' )->escaped()
 			),
 			Linker::makeExternalLink(
-				Skin::makeInternalOrExternalUrl( wfMessage( 'helppage' )->inContentLanguage()->text() ),
-				wfMessage( 'help' )->text()
+				Skin::makeInternalOrExternalUrl( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
+				$this->getMsg( 'help' )->text()
 			),
 			Linker::linkKnown(
-				Title::newFromText( wfMessage( 'faqpage' )->inContentLanguage()->text() ),
-				wfMessage( 'faq' )->escaped()
+				Title::newFromText( $this->getMsg( 'faqpage' )->inContentLanguage()->text() ),
+				$this->getMsg( 'faq' )->escaped()
 			),
 		];
 
@@ -577,7 +558,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$heading = (string)$heading;
 
 			$portletId = Sanitizer::escapeIdForAttribute( "p-$heading" );
-			$headingMsg = wfMessage( $idToMessage[$heading] ?: $heading );
+			$headingMsg = $this->getMsg( $idToMessage[$heading] ?: $heading );
 			if ( $headingMsg->exists() ) {
 				$headingHTML = $headingMsg->escaped();
 			} else {
@@ -629,7 +610,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
 			. "\" method=\"get\" class=\"inline\" action=\"$action\">";
 		if ( $which == 'footer' ) {
-			$s .= wfMessage( 'qbfind' )->text() . ": ";
+			$s .= $this->getMsg( 'qbfind' )->text() . ": ";
 		}
 
 		$s .= $this->makeSearchInput( [
@@ -644,7 +625,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$s .= $this->makeSearchButton( 'fulltext', [ 'class' => 'searchButton' ] );
 		} else {
 			$s .= '<div><a href="' . $action . '" rel="search">'
-				. wfMessage( 'powersearch-legend' )->escaped() . "</a></div>\n";
+				. $this->getMsg( 'powersearch-legend' )->escaped() . "</a></div>\n";
 		}
 
 		$s .= '</form>';
