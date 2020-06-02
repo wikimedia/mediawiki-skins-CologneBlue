@@ -59,6 +59,8 @@ class CologneBlueTemplate extends BaseTemplate {
 	}
 
 	/**
+	 * Generate interwiki language links
+	 *
 	 * @return string
 	 */
 	private function otherLanguages() {
@@ -66,19 +68,21 @@ class CologneBlueTemplate extends BaseTemplate {
 
 		// We override SkinTemplate->formatLanguageName() in SkinCologneBlue
 		// not to capitalize the language names.
-		$language_urls = $this->data['language_urls'];
-		if ( !empty( $language_urls ) ) {
+		// We check getAfterPortlet to make sure the language box is shown
+		// when languages are empty but something has been injected in the portal. (T252841)
+		$languages = $this->data['sidebar']['LANGUAGES'];
+		$afterPortlet = $this->getAfterPortlet( 'lang' );
+		if ( $languages !== [] || $afterPortlet !== '' ) {
 			$s = [];
-			foreach ( $language_urls as $key => $data ) {
+			foreach ( $languages as $key => $data ) {
 				$s[] = $this->makeListItem( $key, $data, [ 'tag' => 'span' ] );
 			}
 
 			$html = $this->getMsg( 'otherlanguages' )->escaped()
 				. $this->getMsg( 'colon-separator' )->escaped()
 				. $this->getSkin()->getLanguage()->pipeList( $s );
+			$html .= $afterPortlet;
 		}
-
-		$html .= $this->renderAfterPortlet( 'lang' );
 
 		return $html;
 	}
@@ -141,12 +145,12 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function bottomLinks() {
-		$toolbox = $this->getToolbox();
-		$content_nav = $this->data['content_navigation'];
-
 		$lines = [];
 
 		if ( $this->getSkin()->getOutput()->isArticleRelated() ) {
+			$toolbox = $this->data['sidebar']['TOOLBOX'];
+			$content_nav = $this->data['content_navigation'];
+
 			// First row. Regular actions.
 			$element = [];
 
@@ -306,6 +310,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			<p id="sitesub"><?php echo $this->getMsg( 'sitesubtitle' )->escaped() ?></p>
 
 			<div id="linkcollection" role="navigation">
+
 				<div id="langlinks"><?php echo str_replace( '<br />', '', $this->otherLanguages() ) ?></div>
 				<?php echo $this->getSkin()->getCategories() ?>
 				<div id="titlelinks"><?php echo $this->pageTitleLinks() ?></div>
@@ -534,7 +539,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			if ( $heading == 'SEARCH' ) {
 				$bar['search'] = $this->searchForm( 'sidebar' );
 			} elseif ( $heading == 'TOOLBOX' ) {
-				$bar['tb'] = $this->getToolbox();
+				$bar['tb'] = $data;
 			} else {
 				$bar[$heading] = $data;
 			}
