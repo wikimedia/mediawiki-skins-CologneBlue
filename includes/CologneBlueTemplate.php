@@ -91,14 +91,10 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @param string $name
 	 * @return string
 	 */
-	protected function renderAfterPortlet( $name ) {
-		$content = '';
-		Hooks::run( 'BaseTemplateAfterPortlet', [ $this, $name, &$content ] );
+	protected function getAfterPortlet( $name ) {
+		$content = $this->getSkin()->getAfterPortlet( $name );
 
-		// @phan-suppress-next-line PhanSuspiciousValueComparison May set by hook
-		$html = $content !== '' ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
-
-		return $html;
+		return $content !== '' ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
 	}
 
 	/**
@@ -597,7 +593,7 @@ class CologneBlueTemplate extends BaseTemplate {
 				], "$headingHTML\n$listHTML" );
 			}
 
-			$s .= $this->renderAfterPortlet( $heading );
+			$s .= $this->getAfterPortlet( $heading );
 		}
 
 		$s .= "</div>\n";
