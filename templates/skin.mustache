@@ -1,0 +1,131 @@
+<div id="content">
+    <div id="topbar">
+        <p id="sitetitle" role="banner">
+            <a href="{{link-mainpage}}">{{msg-sitetitle}}</a>
+        </p>
+
+        <p id="sitesub">{{msg-sitesubtitle}}</p>
+        <div id="linkcollection" role="navigation">
+            <div id="langlinks">{{#data-portlets.data-languages}}{{>Languages}}{{/data-portlets.data-languages}}</div>
+            {{{html-categories}}}
+            <div id="titlelinks">{{#data-footer.data-places.array-items}}{{!
+                }}<span>{{{html}}}</span>{{!
+            }}{{/data-footer.data-places.array-items}}</div>
+            {{#html-newtalk}}
+            <div class="usermessage"><strong>{{{html-newtalk}}}</strong></div>
+            {{/html-newtalk}}
+        </div>
+    </div>
+    <div id="article" class="mw-body" role="main">
+        {{#html-site-notice}}<div id="siteNotice">{{{.}}}</div>{{/html-site-notice}}
+        <div class="mw-indicators mw-body-content">
+            {{#array-indicators}}
+            <div id="{{id}}" class="{{class}}">{{{html}}}</div>
+            {{/array-indicators}}
+        </div>
+        <h1 id="firstHeading" {{{html-user-language-attributes}}}>{{{html-title}}}</h1>
+        {{! Historically this reviously conditionally rendered if not empty.
+        Now empty tag rendered if not present}}
+        <p class="tagline">{{msg-tagline}}</p>
+        {{{html-subtitle}}}
+        {{{html-body-content}}}
+    </div>
+
+    <div id="footer">
+        <div id="footer-navigation" role="navigation">
+            {{#data-portlets}}
+            <ul class="cb-piped-list">{{#data-cb-footer-shortcuts}}
+            {{{html-items}}}
+            {{/data-cb-footer-shortcuts}}
+            </ul>
+            <ul class="cb-piped-list">
+            {{#data-cb-footer-shortcuts-privileged}}
+            {{{html-items}}}
+            {{/data-cb-footer-shortcuts-privileged}}
+            </ul>
+            {{#data-cb-footer-languages}}
+            {{>Languages}}
+            {{/data-cb-footer-languages}}
+            <br />
+            <br />
+            {{/data-portlets}}
+            <ul class="cb-piped-list">
+                <li><a href="{{link-mainpage}}" title="{{msg-mainpage}}">{{msg-mainpage}}</a></li>
+                <li><a href="{{link-about}}" title="{{msg-aboutpage}}">{{msg-about}}</a></li>
+                {{#data-search-box}}
+                <li><form id="searchform-footer"
+                    method="get" class="inline" action="{{form-action}}">{{!
+                    }}{{msg-qbfind}}{{msg-colon-separator}}{{!
+                    }}<input name="search" size="14"
+                        placeholder="{{msg-searchsuggest-search}}"
+                        title="{{msg-tooltip-search}}" autocomplete="off">{{!
+                    }}<input type="submit" name="go" value="{{msg-searcharticle}}"
+                        title="{{msg-tooltip-search-go}}"
+                        class="searchButton">{{!
+                    }}<input type="submit" name="fulltext" value="{{msg-searchbutton}}"
+                        title="{{msg-tooltip-search-fulltext}}" class="searchButton">
+                </form></li>
+                {{/data-search-box}}
+            </ul>
+        </div>
+        {{#data-footer}}
+        <div id="footer-info" role="contentinfo">
+            {{#data-info}}
+            {{#array-items}}{{{html}}} {{/array-items}}
+            {{/data-info}}
+        </div>
+        {{/data-footer}}
+    </div>
+</div>
+<div id="mw-navigation">
+    <h2>{{msg-navigation-heading}}</h2>
+
+    <div id="toplinks" role="navigation">
+        <p id="syslinks">{{!
+        }}<span><a href="{{link-mainpage}}" title="{{msg-mainpage}}">{{msg-mainpage}}</a></span>{{!
+        }}<span><a href="{{link-about}}" title="{{msg-aboutpage}}">{{msg-about}}</a></span> {{!
+        }}<span><a class="external" href="{{link-help}}">{{msg-help}}</a></span>{{!
+        }}<span><a href="{{link-faq}}" title="{{msg-faqpage}}">{{msg-faq}}</a></span>{{!
+        }}{{^is-anon}}{{!
+        }}<span><a href="{{link-logout}}" data-mw="interface" title="{{msg-logout}}">{{msg-pt-userlogout}}</a></span>{{!
+        }}{{/is-anon}}{{!
+        }}{{#is-anon}}{{!
+        }}<span><a href="{{link-create-account}}">{{msg-pt-createaccount}}</a></span>{{!
+        }}<span><a href="{{link-login}}">{{msg-pt-login}}</a></span>{{!
+        }}{{/is-anon}}{{!
+        }}</p>
+        <ul id="variantlinks" class="cb-piped-list">
+            {{#data-portlets.data-variants}}
+            {{{html-items}}}
+            {{/data-portlets.data-variants}}
+        </ul>
+    </div>
+    <div id='quickbar'>
+        {{#data-search-box}}<div class="portlet" id="p-search" role="search"><h3>{{msg-qbfind}}</h3>
+{{!         }}<form id="searchform-sidebar" method="get" class="inline" action="{{form-action}}">{{!
+            }}{{{html-input}}}<br />{{{html-button-search}}}{{!
+            }}{{{html-button-search-fallback}}}{{!
+            }}</form>{{!
+        }}</div>{{/data-search-box}}{{!
+        }}{{#data-portlets-sidebar.data-portlets-first}}{{!
+        }}<div class="portlet" id="{{id}}" role="navigation">
+            {{! if we used `label` and switched to
+            Navigation we could use Portlet partial here !}}
+            <h3>{{msg-qbbrowse}}</h3>
+            <ul>{{{html-items}}}</ul>
+            {{{html-after-portal}}}
+        </div>{{!
+        }}{{/data-portlets-sidebar.data-portlets-first}}{{!
+        }}<div class="portlet" id="p-cactions" role="navigation"><h3>{{msg-qbedit}}</h3>
+            <ul>{{#data-portlets.data-actions}}{{{html-items}}}{{/data-portlets.data-actions}}</ul>
+        </div><div class="portlet" id="p-pageoptions" role="navigation"><h3>{{msg-qbpageoptions}}</h3>
+            <ul>{{#data-portlets.data-namespaces}}{{{html-items}}}{{/data-portlets.data-namespaces}}</ul>
+        </div><div class="portlet" id="p-personal" role="navigation"><h3>{{msg-qbmyoptions}}</h3>
+            <ul>{{#data-portlets.data-personal}}{{{html-items}}}{{/data-portlets.data-personal}}</ul>
+        </div>
+        {{#data-portlets-sidebar.array-portlets-rest}}
+        {{>Portlet}}
+        {{/data-portlets-sidebar.array-portlets-rest}}
+    </div>
+</div>
+{{{html-after-content}}}

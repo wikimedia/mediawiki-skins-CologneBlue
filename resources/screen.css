@@ -229,8 +229,8 @@ small {
 	display: none;
 }
 
-input.mw-searchInput {
-	width: 106px;
+#searchInput {
+	width: 114px;
 }
 
 /* Directionality-specific styles */

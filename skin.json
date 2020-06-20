@@ -9,22 +9,61 @@
 	"namemsg": "skinname-cologneblue",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
-	"requires": {
-		"MediaWiki": ">= 1.35.0"
-	},
 	"ValidSkinNames": {
 		"cologneblue": {
 			"class": "SkinCologneBlue",
 			"args": [
 				{
-					"name": "cologneblue",
-					"styles": [
+					"name" : "cologneblue",
+					"templateDirectory": "skins/CologneBlue/templates/",
+					"styles" : [
 						"skins.cologneblue.i18n",
 						"skins.cologneblue"
+					],
+					"messages": [
+						"mainpage",
+						"faq",
+						"help",
+						"about",
+						"aboutpage",
+						"logout",
+						"pt-createaccount",
+						"pt-login",
+						"pt-userlogin",
+						"pt-userlogout",
+						"searcharticle",
+						"searchbutton",
+						"searchsuggest-search",
+						"tooltip-search-go",
+						"tooltip-search-fulltext",
+						"tooltip-search",
+						"searchsuggest-search",
+						"sitetitle",
+						"colon-separator",
+						"sitesubtitle",
+						"tagline",
+						"navigation-heading",
+						"otherlanguages",
+						"qbfind",
+						"qbbrowse",
+						"qbedit",
+						"qbmyoptions",
+						"qbpageoptions"
 					]
 				}
 			]
 		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"Hooks": {
+		"PersonalUrls": [
+			"CologneBlueTemplate::onPersonalUrls"
+		],
+		"SkinTemplateNavigation::Universal": [
+			"CologneBlueTemplate::onSkinTemplateNavigationUniversal"
+		]
 	},
 	"MessagesDirs": {
 		"CologneBlue": [

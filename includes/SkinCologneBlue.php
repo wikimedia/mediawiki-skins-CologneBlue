@@ -24,6 +24,42 @@
 /**
  * @ingroup Skins
  */
-class SkinCologneBlue extends SkinTemplate {
-	public $template = 'CologneBlueTemplate';
+class SkinCologneBlue extends SkinMustache {
+	/**
+	 * Add data for links
+	 * @return array
+	 */
+	private function getLinksTemplateData() {
+		$links = [
+			'faq' => 'faqpage',
+			'about' => 'aboutpage',
+			'help' => 'helppage',
+			'create-account' => 'Special:CreateAccount',
+			'logout' => 'Special:UserLogout',
+			'login' => 'Special:UserLogin',
+		];
+
+		$linkTemplateData = [];
+		foreach ( $links as $key => $pageOrMessage ) {
+			$msgObj = $this->msg( $pageOrMessage );
+			if ( $msgObj->exists() ) {
+				$url = Skin::makeInternalOrExternalUrl( $msgObj->inContentLanguage()->text() );
+			} else {
+				$url = Title::newFromText( $pageOrMessage )->getLocalURL();
+			}
+			$linkTemplateData['link-' . $key] = $url;
+		}
+
+		return $linkTemplateData;
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getTemplateData() {
+		$data = parent::getTemplateData();
+		return $data + $this->getLinksTemplateData() + [
+			'is-anon' => $this->getUser()->isAnon(),
+		];
+	}
 }
