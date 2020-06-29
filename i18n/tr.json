@@ -11,7 +11,7 @@
 			"Vito Genovese"
 		]
 	},
-	"cologneblue-desc": "Minimum formatlama ile hafif bir görünüm",
+	"cologneblue-desc": "Minimum biçimlendirme ile hafif bir görünüm",
 	"qbfind": "Bul",
 	"qbbrowse": "Göz at",
 	"qbedit": "Düzenle",
@@ -22,9 +22,9 @@
 	"create-this-page": "Bu sayfayı oluştur",
 	"deletethispage": "Bu sayfayı sil",
 	"undeletethispage": "Bu sayfanın silme işlemini geri al",
-	"protectthispage": "Bu sayfayı koruma altına al",
+	"protectthispage": "Bu sayfayı koru",
 	"unprotectthispage": "Bu sayfanın korumasını değiştir",
-	"talkpage": "Tartışma sayfası",
+	"talkpage": "Bu sayfayı tartış",
 	"articlepage": "İçerik sayfasını gör",
 	"userpage": "Kullanıcı sayfasını görüntüle",
 	"projectpage": "Proje sayfasını görüntüle"
