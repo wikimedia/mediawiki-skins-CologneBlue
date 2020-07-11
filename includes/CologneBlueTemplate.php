@@ -607,9 +607,8 @@ class CologneBlueTemplate extends BaseTemplate {
 	 */
 	private function searchForm( $which ) {
 		$search = $this->getSkin()->getRequest()->getText( 'search' );
-		$action = htmlspecialchars( $this->data['searchaction'] );
-		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
-			. "\" method=\"get\" class=\"inline\" action=\"$action\">";
+
+		$s = '';
 		if ( $which == 'footer' ) {
 			$s .= $this->getMsg( 'qbfind' )->text() . ": ";
 		}
@@ -621,16 +620,16 @@ class CologneBlueTemplate extends BaseTemplate {
 		] );
 		$s .= ( $which == 'footer' ? " " : "<br />" );
 		$s .= $this->makeSearchButton( 'go', [ 'class' => 'searchButton' ] );
+		$s .= $this->makeSearchButton( 'fulltext', [ 'class' => 'searchButton' ] );
 
-		if ( $this->config->get( 'UseTwoButtonsSearchForm' ) ) {
-			$s .= $this->makeSearchButton( 'fulltext', [ 'class' => 'searchButton' ] );
-		} else {
-			$s .= '<div><a href="' . $action . '" rel="search">'
-				. $this->getMsg( 'powersearch-legend' )->escaped() . "</a></div>\n";
-		}
-
-		$s .= '</form>';
-
-		return $s;
+		return Html::rawElement( 'form',
+			[
+				'id' => 'searchform-' . $which,
+				'method' => 'get',
+				'class' => 'inline',
+				'action' => $this->data['searchaction'],
+			],
+			$s
+		);
 	}
 }
