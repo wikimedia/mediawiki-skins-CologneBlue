@@ -17,24 +17,13 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  * http://www.gnu.org/copyleft/gpl.html
  *
- * @todo document
  * @file
  * @ingroup Skins
  */
 
 /**
- * @todo document
  * @ingroup Skins
  */
 class SkinCologneBlue extends SkinTemplate {
-	public $skinname = 'cologneblue';
 	public $template = 'CologneBlueTemplate';
-
-	/**
-	 * @param OutputPage $out
-	 */
-	public function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'skins.cologneblue' );
-	}
 }

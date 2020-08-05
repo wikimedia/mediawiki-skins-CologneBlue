@@ -9,11 +9,21 @@
 	"namemsg": "skinname-cologneblue",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
-	"ValidSkinNames": {
-		"cologneblue": "CologneBlue"
-	},
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"cologneblue": {
+			"class": "SkinCologneBlue",
+			"args": [
+				{
+					"name": "cologneblue",
+					"styles": [
+						"skins.cologneblue"
+					]
+				}
+			]
+		}
 	},
 	"MessagesDirs": {
 		"CologneBlue": [
