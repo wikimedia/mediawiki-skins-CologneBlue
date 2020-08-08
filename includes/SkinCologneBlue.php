@@ -37,14 +37,4 @@ class SkinCologneBlue extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 		$out->addModuleStyles( 'skins.cologneblue' );
 	}
-
-	/**
-	 * Override langlink formatting behavior not to uppercase the language names.
-	 * See otherLanguages() in CologneBlueTemplate.
-	 * @param string $name
-	 * @return string
-	 */
-	public function formatLanguageName( $name ) {
-		return $name;
-	}
 }

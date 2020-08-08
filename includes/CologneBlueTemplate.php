@@ -66,8 +66,6 @@ class CologneBlueTemplate extends BaseTemplate {
 	private function otherLanguages() {
 		$html = '';
 
-		// We override SkinTemplate->formatLanguageName() in SkinCologneBlue
-		// not to capitalize the language names.
 		// We check getAfterPortlet to make sure the language box is shown
 		// when languages are empty but something has been injected in the portal. (T252841)
 		$languages = $this->data['sidebar']['LANGUAGES'];
