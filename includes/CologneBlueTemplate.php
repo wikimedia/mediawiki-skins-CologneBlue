@@ -620,12 +620,14 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s .= $this->makeSearchButton( 'go', [ 'class' => 'searchButton' ] );
 		$s .= $this->makeSearchButton( 'fulltext', [ 'class' => 'searchButton' ] );
 
+		$searchPage = SpecialPage::getTitleFor( 'Search' );
+
 		return Html::rawElement( 'form',
 			[
 				'id' => 'searchform-' . $which,
 				'method' => 'get',
 				'class' => 'inline',
-				'action' => $this->data['searchaction'],
+				'action' => $searchPage->getLocalURL(),
 			],
 			$s
 		);
