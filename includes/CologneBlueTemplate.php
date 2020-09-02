@@ -375,9 +375,10 @@ class CologneBlueTemplate extends BaseTemplate {
 				echo "\n<br />";
 
 				// Footer and second searchbox
-				echo $this->getSkin()->getLanguage()->pipeList( [
-					$this->getSkin()->mainPageLink(),
-					$this->getSkin()->aboutLink(),
+				$skin = $this->getSkin();
+				echo $skin->getLanguage()->pipeList( [
+					$skin->mainPageLink(),
+					$skin->footerLink( 'aboutsite', 'aboutpage' ),
 					$this->searchForm( 'footer' )
 				] );
 				?>
