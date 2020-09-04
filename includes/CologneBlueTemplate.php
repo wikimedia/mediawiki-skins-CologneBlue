@@ -20,6 +20,8 @@
  * @file
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * @ingroup Skins
  */
@@ -376,8 +378,13 @@ class CologneBlueTemplate extends BaseTemplate {
 
 				// Footer and second searchbox
 				$skin = $this->getSkin();
+				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 				echo $skin->getLanguage()->pipeList( [
-					$skin->mainPageLink(),
+					$linkRenderer->makeKnownLink(
+						Title::newMainPage(),
+						$this->getMsg( 'mainpage' )->text()
+					),
+
 					$skin->footerLink( 'aboutsite', 'aboutpage' ),
 					$this->searchForm( 'footer' )
 				] );
@@ -417,19 +424,23 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function sysLinks() {
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 		$s = [
-			$this->getSkin()->mainPageLink(),
-			Linker::linkKnown(
-				Title::newFromText( $this->getMsg( 'aboutpage' )->inContentLanguage()->text() ),
-				$this->getMsg( 'about' )->escaped()
+			$linkRenderer->makeKnownLink(
+				Title::newMainPage(),
+				$this->getMsg( 'mainpage' )->text()
 			),
-			Linker::makeExternalLink(
-				Skin::makeInternalOrExternalUrl( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
+			$linkRenderer->makeKnownLink(
+				Title::newFromText( $this->getMsg( 'aboutpage' )->inContentLanguage()->text() ),
+				$this->getMsg( 'about' )->text()
+			),
+			$linkRenderer->makeKnownLink(
+				Title::newFromText( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'help' )->text()
 			),
-			Linker::linkKnown(
+			$linkRenderer->makeKnownLink(
 				Title::newFromText( $this->getMsg( 'faqpage' )->inContentLanguage()->text() ),
-				$this->getMsg( 'faq' )->escaped()
+				$this->getMsg( 'faq' )->text()
 			),
 		];
 
