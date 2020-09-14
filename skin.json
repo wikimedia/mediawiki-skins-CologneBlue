@@ -33,7 +33,9 @@
 	"ResourceModules": {
 		"skins.cologneblue": {
 			"class": "ResourceLoaderSkinModule",
-			"features": [ "legacy" ],
+			"features": {
+				"legacy": true
+			},
 			"styles": {
 				"resources/oldshared.css": {},
 				"resources/screen.css": {
