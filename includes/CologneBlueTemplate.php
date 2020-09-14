@@ -341,20 +341,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		<?php
 		}
 		?>
-		<?php
-		if ( $this->getSkin()->getOutput()->getSubtitle() ) {
-			?>
-			<p class="subtitle"><?php echo $this->getSkin()->getOutput()->getSubtitle() ?></p>
-		<?php
-		}
-		?>
-		<?php
-		if ( $this->getSkin()->subPageSubtitle() ) {
-			?>
-			<p class="subpages"><?php echo $this->getSkin()->subPageSubtitle() ?></p>
-		<?php
-		}
-		?>
+		<p class="subtitle"><?php echo $this->data['subtitle']?></p>
 		<?php
 		$s = ob_get_contents();
 		ob_end_clean();
