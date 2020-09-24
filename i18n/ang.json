@@ -2,23 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Gott wisst",
+			"Heahwrita",
 			"Wōdenhelm"
 		]
 	},
-	"qbfind": "Findan",
-	"qbbrowse": "Þurhsēcan",
-	"qbedit": "Adihtan",
+	"qbfind": "Find",
+	"qbbrowse": "Þurhsec",
+	"qbedit": "Adiht",
 	"qbpageoptions": "Þes tramet",
-	"qbmyoptions": "Mīne trametas",
+	"qbmyoptions": "Mine trametas",
 	"faqpage": "Project:FAQ",
-	"editthispage": "Adihtan þisne tramet",
-	"create-this-page": "Scieppan þisne tramet",
-	"deletethispage": "Forlēosan þisne tramet",
-	"undeletethispage": "Undōn þā forlēosunge þisses trametes",
-	"protectthispage": "Beorgan þisne tramet",
-	"unprotectthispage": "Andwendan beorgune þisses trametes",
-	"talkpage": "Sprecan ymbe þisne tramet",
-	"articlepage": "Sēon innunge tramet",
-	"userpage": "Sēon brūcendes tramet",
-	"projectpage": "Sēon weorces tramet"
+	"editthispage": "Adiht þisne tramet",
+	"create-this-page": "Scypp þisne tramet",
+	"deletethispage": "Forleos þisne tramet",
+	"undeletethispage": "Undo þa forleosunge þisses trametes",
+	"protectthispage": "Beorg þisne tramet",
+	"unprotectthispage": "Andwend þæt gebeorg þisses trametes",
+	"talkpage": "Sprec ymbe þisne tramet",
+	"articlepage": "Seoh innunge tramet",
+	"userpage": "Seoh brucendtramet",
+	"projectpage": "Seoh weorces tramet"
 }
