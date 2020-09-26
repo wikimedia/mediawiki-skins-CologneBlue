@@ -127,7 +127,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		}
 
 		if ( $message ) {
-			$navlink['text'] = $this->getMsg( $message )->escaped();
+			$navlink['text'] = $this->getMsg( $message )->text();
 		}
 
 		return $this->makeListItem(
