@@ -6,6 +6,7 @@
 			"Joseph",
 			"Karduelis",
 			"Mirzali",
+			"MuratTheTurkish",
 			"Srhat",
 			"Stultiwikia",
 			"Vito Genovese"
@@ -21,11 +22,11 @@
 	"editthispage": "Bu sayfayı düzenle",
 	"create-this-page": "Bu sayfayı oluştur",
 	"deletethispage": "Bu sayfayı sil",
-	"undeletethispage": "Bu sayfanın silme işlemini geri al",
+	"undeletethispage": "Bu sayfayı silmeyi geri al",
 	"protectthispage": "Bu sayfayı koru",
 	"unprotectthispage": "Bu sayfanın korumasını değiştir",
 	"talkpage": "Bu sayfayı tartış",
-	"articlepage": "İçerik sayfasını gör",
+	"articlepage": "İçerik sayfasını görüntüle",
 	"userpage": "Kullanıcı sayfasını görüntüle",
 	"projectpage": "Proje sayfasını görüntüle"
 }
