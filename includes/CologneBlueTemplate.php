@@ -421,8 +421,8 @@ class CologneBlueTemplate extends BaseTemplate {
 				Title::newFromText( $this->getMsg( 'aboutpage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'about' )->text()
 			),
-			$linkRenderer->makeKnownLink(
-				Title::newFromText( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
+			Linker::makeExternalLink(
+				Skin::makeInternalOrExternalUrl( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'help' )->text()
 			),
 			$linkRenderer->makeKnownLink(
