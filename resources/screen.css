@@ -313,6 +313,12 @@ input.mw-searchInput {
 	bottom: 12pt;
 }
 
+/* languages */
+#langlinks ul {
+	padding-left: 0;
+	display: inline;
+}
+
 #sitesub {
 	float: left;
 	margin-left: 8px;
