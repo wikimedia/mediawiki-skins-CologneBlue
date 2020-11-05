@@ -611,7 +611,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s = "<form id=\"searchform-" . htmlspecialchars( $which )
 			. "\" method=\"get\" class=\"inline\" action=\"$action\">";
 		if ( $which == 'footer' ) {
-			$s .= $this->getMsg( 'qbfind' )->text() . ": ";
+			$s .= $this->getMsg( 'qbfind' )->escaped() . ": ";
 		}
 
 		$s .= $this->makeSearchInput( [
