@@ -603,8 +603,6 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function searchForm( $which ) {
-		$search = $this->getSkin()->getRequest()->getText( 'search' );
-
 		$s = '';
 		if ( $which == 'footer' ) {
 			$s .= $this->getMsg( 'qbfind' )->escaped() . ": ";
