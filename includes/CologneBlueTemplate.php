@@ -607,7 +607,7 @@ class CologneBlueTemplate extends BaseTemplate {
 
 		$s = '';
 		if ( $which == 'footer' ) {
-			$s .= $this->getMsg( 'qbfind' )->text() . ": ";
+			$s .= $this->getMsg( 'qbfind' )->escaped() . ": ";
 		}
 
 		$s .= $this->makeSearchInput( [
