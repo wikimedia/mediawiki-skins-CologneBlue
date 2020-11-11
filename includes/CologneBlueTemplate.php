@@ -57,7 +57,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			$s[] = $this->makeListItem( $key, $link, [ 'tag' => 'span' ] );
 		}
 
-		return $this->getSkin()->getLanguage()->pipeList( $s );
+		return implode( "\n", $s );
 	}
 
 	/**
@@ -75,12 +75,16 @@ class CologneBlueTemplate extends BaseTemplate {
 		if ( $languages !== [] || $afterPortlet !== '' ) {
 			$s = [];
 			foreach ( $languages as $key => $data ) {
-				$s[] = $this->makeListItem( $key, $data, [ 'tag' => 'span' ] );
+				$s[] = $this->makeListItem( $key, $data );
 			}
 
 			$html = $this->getMsg( 'otherlanguages' )->escaped()
 				. $this->getMsg( 'colon-separator' )->escaped()
-				. $this->getSkin()->getLanguage()->pipeList( $s );
+				. Html::openElement( 'ul', [
+					'class' => 'cb-piped-list'
+				] )
+				. implode( "\n", $s )
+				. Html::closeElement( 'ul' );
 			$html .= $afterPortlet;
 		}
 
@@ -101,14 +105,14 @@ class CologneBlueTemplate extends BaseTemplate {
 	 * @return string
 	 */
 	private function pageTitleLinks() {
-		$s = [];
+		$s = '';
 		$footlinks = $this->getFooterLinks();
 
 		foreach ( $footlinks['places'] as $item ) {
-			$s[] = $this->data[$item];
+			$s .= Html::rawElement( 'span', [], $this->data[$item] );
 		}
 
-		return $this->getSkin()->getLanguage()->pipeList( $s );
+		return $s;
 	}
 
 	/**
@@ -133,7 +137,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		return $this->makeListItem(
 			$key,
 			$this->processNavlinkForDocument( $navlink ),
-			[ 'tag' => 'span' ]
+			[ 'tag' => 'li' ]
 		);
 	}
 
@@ -142,6 +146,9 @@ class CologneBlueTemplate extends BaseTemplate {
 	 */
 	private function bottomLinks() {
 		$lines = [];
+		$pipeListAttributes = [
+			'class' => 'cb-piped-list',
+		];
 
 		if ( $this->getSkin()->getOutput()->isArticleRelated() ) {
 			$toolbox = $this->data['sidebar']['TOOLBOX'];
@@ -185,7 +192,9 @@ class CologneBlueTemplate extends BaseTemplate {
 				);
 			}
 
-			$lines[] = $this->getSkin()->getLanguage()->pipeList( array_filter( $element ) );
+			$lines[] = Html::rawElement( 'ul', $pipeListAttributes,
+				implode( "\n", array_filter( $element ) )
+			);
 
 			// Second row. Privileged actions.
 			$element = [];
@@ -202,13 +211,15 @@ class CologneBlueTemplate extends BaseTemplate {
 				}
 			}
 
-			$lines[] = $this->getSkin()->getLanguage()->pipeList( array_filter( $element ) );
+			$lines[] = Html::rawElement( 'ul', $pipeListAttributes,
+				implode( "\n", array_filter( $element ) )
+			);
 
 			// Third row. Language links.
-			$lines[] = $this->otherLanguages();
+			$lines[] = Html::rawElement( 'ul', $pipeListAttributes, $this->otherLanguages() );
 		}
 
-		return implode( "<br />\n", array_filter( $lines ) ) . "<br />\n";
+		return implode( "\n", array_filter( $lines ) );
 	}
 
 	/**
@@ -308,7 +319,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			<div id="linkcollection" role="navigation">
 
 				<div id="langlinks"><?php echo str_replace( '<br />', '', $this->otherLanguages() ) ?></div>
-				<?php echo $this->getSkin()->getCategories() ?>
+				<?php echo $this->getSkin()->getCategories() . "\n" ?>
 				<div id="titlelinks"><?php echo $this->pageTitleLinks() ?></div>
 				<?php
 				if ( $this->data['newtalk'] ) {
@@ -366,15 +377,23 @@ class CologneBlueTemplate extends BaseTemplate {
 				// Footer and second searchbox
 				$skin = $this->getSkin();
 				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
-				echo $skin->getLanguage()->pipeList( [
+				echo Html::openElement( 'ul', [
+					'class' => 'cb-piped-list',
+				] );
+				echo Html::rawElement( 'li', [],
 					$linkRenderer->makeKnownLink(
 						Title::newMainPage(),
 						$this->getMsg( 'mainpage' )->text()
-					),
+					)
+				);
+				echo Html::rawElement( 'li', [],
+					$skin->footerLink( 'aboutsite', 'aboutpage' )
+				);
 
-					$skin->footerLink( 'aboutsite', 'aboutpage' ),
+				echo Html::rawElement( 'li', [],
 					$this->searchForm( 'footer' )
-				] );
+				);
+				echo Html::closeElement( 'ul' );
 				?>
 			</div>
 			<div id="footer-info" role="contentinfo">
@@ -412,33 +431,39 @@ class CologneBlueTemplate extends BaseTemplate {
 	 */
 	private function sysLinks() {
 		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
-		$s = [
+		$s = Html::rawElement( 'span', [],
 			$linkRenderer->makeKnownLink(
 				Title::newMainPage(),
 				$this->getMsg( 'mainpage' )->text()
-			),
+			)
+		) .
+		Html::rawElement( 'span', [],
 			$linkRenderer->makeKnownLink(
 				Title::newFromText( $this->getMsg( 'aboutpage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'about' )->text()
-			),
+			)
+		) .
+		Html::rawElement( 'span', [],
 			Linker::makeExternalLink(
 				Skin::makeInternalOrExternalUrl( $this->getMsg( 'helppage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'help' )->text()
-			),
+			)
+		) .
+		Html::rawElement( 'span', [],
 			$linkRenderer->makeKnownLink(
 				Title::newFromText( $this->getMsg( 'faqpage' )->inContentLanguage()->text() ),
 				$this->getMsg( 'faq' )->text()
-			),
-		];
+			)
+		);
 
 		$personalUrls = $this->getPersonalTools();
 		foreach ( [ 'logout', 'createaccount', 'login' ] as $key ) {
 			if ( isset( $personalUrls[$key] ) ) {
-				$s[] = $this->makeListItem( $key, $personalUrls[$key], [ 'tag' => 'span' ] );
+				$s .= $this->makeListItem( $key, $personalUrls[$key], [ 'tag' => 'span' ] );
 			}
 		}
 
-		return $this->getSkin()->getLanguage()->pipeList( $s );
+		return $s;
 	}
 
 	/**
