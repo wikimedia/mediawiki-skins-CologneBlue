@@ -1,24 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abbas dhothar",
 			"Khalid Mahmood",
 			"Saanvel"
 		]
 	},
 	"qbfind": "کھوج",
-	"qbbrowse": "لبو",
+	"qbbrowse": "لبھو",
 	"qbedit": "لکھو",
-	"qbpageoptions": "اے صفہ",
-	"qbmyoptions": "میرے صفے",
+	"qbpageoptions": "ایہ صفحہ",
+	"qbmyoptions": "میرے صفحے",
 	"faqpage": "Project:FAQ",
 	"editthispage": "اس صفحہ تے لکھو",
-	"create-this-page": "اے صفحہ بناؤ",
-	"deletethispage": "اے صفحہ مٹاؤ",
+	"create-this-page": "ایہ صفحہ بناؤ",
+	"deletethispage": "ایہ صفحہ مٹاؤ",
 	"undeletethispage": "اس صفحے نوں واپس لیاؤ",
-	"protectthispage": "اے صفحہ بچاؤ",
-	"unprotectthispage": "اے صفحہ اینا بچاؤ",
-	"talkpage": "اس صفحے دے بارے چ گل بات کرو",
+	"protectthispage": "ایہ صفحہ بچاؤ",
+	"unprotectthispage": " اس صفحے دا بچاؤ بدلو",
+	"talkpage": "اس صفحے دے بارے وچ گل بات کرو",
 	"articlepage": "مضمون آلا صفحہ",
-	"userpage": "ورتن آلے دا صفہ ویکھو",
-	"projectpage": "ویونت والا صفہ ویکھو"
+	"userpage": "ورتن آلے دا صفجہ ویکھو",
+	"projectpage": "ویونت والا صفحہ ویکھو"
 }
