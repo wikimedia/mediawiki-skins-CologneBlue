@@ -297,7 +297,8 @@ input.mw-searchInput {
 	font-size: 10pt;
 }
 
-#toplinks p {
+#toplinks p,
+#toplinks #variantlinks {
 	position: absolute;
 	right: 0;
 	margin: 0;

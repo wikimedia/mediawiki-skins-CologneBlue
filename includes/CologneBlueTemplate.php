@@ -54,7 +54,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		$variants = $this->data['content_navigation']['variants'];
 
 		foreach ( $variants as $key => $link ) {
-			$s[] = $this->makeListItem( $key, $link, [ 'tag' => 'span' ] );
+			$s[] = $this->makeListItem( $key, $link );
 		}
 
 		return implode( "\n", $s );
@@ -415,7 +415,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			<div id="toplinks" role="navigation">
 				<p id="syslinks"><?php echo $this->sysLinks() ?></p>
 
-				<p id="variantlinks"><?php echo $this->variantLinks() ?></p>
+				<ul id="variantlinks" class="cb-piped-list"><?php echo $this->variantLinks() ?></ul>
 			</div>
 			<?php echo $this->quickBar() ?>
 		</div>
