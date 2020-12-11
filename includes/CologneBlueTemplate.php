@@ -98,7 +98,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	protected function getAfterPortlet( $name ) {
 		$content = $this->getSkin()->getAfterPortlet( $name );
 
-		return $content !== '' ? "<div class='after-portlet after-portlet-$name'>$content</div>" : '';
+		return $content !== '' ? "<div class=\"after-portlet after-portlet-$name\">$content</div>" : '';
 	}
 
 	/**
@@ -339,10 +339,7 @@ class CologneBlueTemplate extends BaseTemplate {
 		}
 		?>
 		<?php echo $this->getIndicators(); ?>
-		<h1 id="firstHeading" lang="<?php
-		$this->data['pageLanguage'] = $this->getSkin()->getTitle()->getPageViewLanguage()->getHtmlCode();
-		$this->text( 'pageLanguage' );
-		?>"><?php echo $this->data['title'] ?></h1>
+		<h1 id="firstHeading"<?php $this->html( 'userlangattributes' );?>><?php echo $this->data['title'] ?></h1>
 		<?php
 		if ( $this->getMsg( 'tagline' )->text() ) {
 			?>
@@ -471,7 +468,7 @@ class CologneBlueTemplate extends BaseTemplate {
 	 *
 	 * @param array $bar Sidebar data
 	 * @return array Modified sidebar data
-	 * @suppress PhanTypeMismatchDimAssignment,PhanTypeInvalidDimOffset Complex array
+	 * @suppress PhanTypeInvalidDimOffset Complex array
 	 */
 	private function sidebarAdditions( $bar ) {
 		// "This page" and "Edit" menus
@@ -606,16 +603,15 @@ class CologneBlueTemplate extends BaseTemplate {
 				$listHTML = $data;
 			}
 
-			if ( $listHTML ) {
+			$afterPortlet = $this->getAfterPortlet( $heading );
+			if ( $listHTML || $afterPortlet ) {
 				$role = ( $heading == 'search' ) ? 'search' : 'navigation';
 				$s .= Html::rawElement( 'div', [
 					'class' => 'portlet',
 					'id' => $portletId,
 					'role' => $role,
-				], "$headingHTML\n$listHTML" );
+				], "$headingHTML\n$listHTML\n$afterPortlet" );
 			}
-
-			$s .= $this->getAfterPortlet( $heading );
 		}
 
 		$s .= "</div>\n";
@@ -642,14 +638,12 @@ class CologneBlueTemplate extends BaseTemplate {
 		$s .= $this->makeSearchButton( 'go', [ 'class' => 'searchButton' ] );
 		$s .= $this->makeSearchButton( 'fulltext', [ 'class' => 'searchButton' ] );
 
-		$searchPage = SpecialPage::getTitleFor( 'Search' );
-
 		return Html::rawElement( 'form',
 			[
 				'id' => 'searchform-' . $which,
 				'method' => 'get',
 				'class' => 'inline',
-				'action' => $searchPage->getLocalURL(),
+				'action' => $this->getSkin()->getConfig()->get( 'Script' ),
 			],
 			$s
 		);
