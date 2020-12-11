@@ -216,7 +216,7 @@ class CologneBlueTemplate extends BaseTemplate {
 			);
 
 			// Third row. Language links.
-			$lines[] = Html::rawElement( 'ul', $pipeListAttributes, $this->otherLanguages() );
+			$lines[] = $this->otherLanguages();
 		}
 
 		return implode( "\n", array_filter( $lines ) );
