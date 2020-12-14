@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
-	"editthispage": "Mute taam siijđo"
+	"qbedit": "Mute",
+	"editthispage": "Mute taam siijđo",
+	"create-this-page": "Räähti taam siijđo",
+	"deletethispage": "Siho taam siijđo"
 }
