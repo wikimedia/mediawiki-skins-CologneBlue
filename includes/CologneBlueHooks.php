@@ -23,7 +23,7 @@
 /**
  * @ingroup Skins
  */
-class CologneBlueTemplate {
+class CologneBlueHooks {
 	/**
 	 * Construct menu for the Cologne Blue footer
 	 * from the existing data given to the

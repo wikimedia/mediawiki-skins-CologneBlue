@@ -59,10 +59,10 @@
 	},
 	"Hooks": {
 		"PersonalUrls": [
-			"CologneBlueTemplate::onPersonalUrls"
+			"CologneBlueHooks::onPersonalUrls"
 		],
 		"SkinTemplateNavigation::Universal": [
-			"CologneBlueTemplate::onSkinTemplateNavigationUniversal"
+			"CologneBlueHooks::onSkinTemplateNavigationUniversal"
 		]
 	},
 	"MessagesDirs": {
@@ -112,7 +112,7 @@
 	},
 	"AutoloadClasses": {
 		"SkinCologneBlue": "includes/SkinCologneBlue.php",
-		"CologneBlueTemplate": "includes/CologneBlueTemplate.php"
+		"CologneBlueHooks": "includes/CologneBlueHooks.php"
 	},
 	"manifest_version": 2
 }
