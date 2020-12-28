@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Lucyin",
+			"Reptilien.19831209BE1",
 			"Srtxg"
 		]
 	},
@@ -10,10 +11,10 @@
 	"qbedit": "Candjî",
 	"qbpageoptions": "Cisse pådje ci",
 	"qbmyoptions": "Mes pådjes",
-	"editthispage": "Candjî l' pådje",
+	"editthispage": "Candjî l’&nbsp;pådje",
 	"create-this-page": "Ahiver cisse pådje la",
-	"deletethispage": "Disfacer l' pådje",
-	"protectthispage": "Protedjî l' pådje",
+	"deletethispage": "Disfacer l’&nbsp;pådje",
+	"protectthispage": "Protedjî l’&nbsp;pådje",
 	"unprotectthispage": "Candjî l' protedjaedje del pådje",
 	"talkpage": "Copene sol pådje",
 	"articlepage": "Vey l' årtike",
