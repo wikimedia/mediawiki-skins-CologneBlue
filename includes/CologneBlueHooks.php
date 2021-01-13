@@ -144,9 +144,15 @@ class CologneBlueHooks {
 		unset( $content_navigation['actions']['watch'] );
 		unset( $content_navigation['actions']['unwatch'] );
 
-		$qbEditLinks = [ 'edit' => $content_navigation['views']['edit'] ];
-		if ( isset( $content_navigation['views']['addsection'] ) ) {
-			$qbEditLinks['addsection'] = $content_navigation['views']['addsection'];
+		$views = $content_navigation['views'] ?? [];
+
+		$qbEditLinks = [];
+		if ( isset( $views['edit'] ) ) {
+			$qbEditLinks['edit'] = $views['edit'];
+		}
+
+		if ( isset( $views['addsection'] ) ) {
+			$qbEditLinks['addsection'] = $views['addsection'];
 		}
 		$qbedit = array_merge(
 			$qbEditLinks,
