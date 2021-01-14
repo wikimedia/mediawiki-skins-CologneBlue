@@ -108,7 +108,7 @@
             }}</form>{{!
         }}</div>{{/data-search-box}}{{!
         }}{{#data-portlets-sidebar.data-portlets-first}}{{!
-        }}<div class="portlet" id="{{id}}" role="navigation">
+        }}<div class="portlet {{class}}" id="{{id}}" role="navigation">
             {{! if we used `label` and switched to
             Navigation we could use Portlet partial here !}}
             <h3>{{msg-qbbrowse}}</h3>
@@ -116,11 +116,13 @@
             {{{html-after-portal}}}
         </div>{{!
         }}{{/data-portlets-sidebar.data-portlets-first}}{{!
-        }}<div class="portlet" id="p-cactions" role="navigation"><h3>{{msg-qbedit}}</h3>
-            <ul>{{#data-portlets.data-actions}}{{{html-items}}}{{/data-portlets.data-actions}}</ul>
-        </div><div class="portlet" id="p-pageoptions" role="navigation"><h3>{{msg-qbpageoptions}}</h3>
+        }}{{#data-portlets.data-actions}}
+        <div class="portlet {{class}}" id="p-cactions" role="navigation"><h3>{{msg-qbedit}}</h3>
+            <ul>{{{html-items}}}</ul>
+        </div>
+        {{/data-portlets.data-actions}}<div class="portlet" id="p-pageoptions" role="navigation"><h3>{{msg-qbpageoptions}}</h3>
             <ul>{{#data-portlets.data-namespaces}}{{{html-items}}}{{/data-portlets.data-namespaces}}</ul>
-        </div><div class="portlet" id="p-personal" role="navigation"><h3>{{msg-qbmyoptions}}</h3>
+        </div><div class="portlet {{class}}" id="p-personal" role="navigation"><h3>{{msg-qbmyoptions}}</h3>
             <ul>{{#data-portlets.data-personal}}{{{html-items}}}{{/data-portlets.data-personal}}</ul>
         </div>
         {{#data-portlets-sidebar.array-portlets-rest}}
