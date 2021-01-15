@@ -140,6 +140,12 @@ textarea {
 	line-height: inherit;
 }
 
+/* If the portlet is empty e.g. edit portlet  on special pages,
+this list should be removed: T271978#6747698 */
+.emptyPortlet {
+	display: none;
+}
+
 div.after-portlet {
 	display: inline;
 	padding-left: 0.5em;
