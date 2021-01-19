@@ -50,8 +50,7 @@
             <br />
             {{/data-portlets}}
             <ul class="cb-piped-list">
-                <li><a href="{{link-mainpage}}" title="{{msg-mainpage}}">{{msg-mainpage}}</a></li>
-                <li><a href="{{link-about}}" title="{{msg-aboutpage}}">{{msg-about}}</a></li>
+                {{#data-portlets.data-cb-footer-syslinks}}{{{html-items}}}{{/data-portlets.data-cb-footer-syslinks}}
                 {{#data-search-box}}
                 <li><form id="searchform-footer"
                     method="get" class="inline" action="{{form-action}}">{{!
@@ -81,19 +80,9 @@
     <h2>{{msg-navigation-heading}}</h2>
 
     <div id="toplinks" role="navigation">
-        <p id="syslinks">{{!
-        }}<span><a href="{{link-mainpage}}" title="{{msg-mainpage}}">{{msg-mainpage}}</a></span>{{!
-        }}<span><a href="{{link-about}}" title="{{msg-aboutpage}}">{{msg-about}}</a></span> {{!
-        }}<span><a class="external" href="{{link-help}}">{{msg-help}}</a></span>{{!
-        }}<span><a href="{{link-faq}}" title="{{msg-faqpage}}">{{msg-faq}}</a></span>{{!
-        }}{{^is-anon}}{{!
-        }}<span><a href="{{link-logout}}" data-mw="interface" title="{{msg-logout}}">{{msg-pt-userlogout}}</a></span>{{!
-        }}{{/is-anon}}{{!
-        }}{{#is-anon}}{{!
-        }}<span><a href="{{link-create-account}}">{{msg-pt-createaccount}}</a></span>{{!
-        }}<span><a href="{{link-login}}">{{msg-pt-login}}</a></span>{{!
-        }}{{/is-anon}}{{!
-        }}</p>
+        <ul id="syslinks" class="cb-piped-list">
+        {{#data-portlets.data-cb-syslinks}}{{{html-items}}}{{/data-portlets.data-cb-syslinks}}
+       </ul>
         <ul id="variantlinks" class="cb-piped-list">
             {{#data-portlets.data-variants}}
             {{{html-items}}}
