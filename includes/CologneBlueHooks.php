@@ -180,6 +180,58 @@ class CologneBlueHooks {
 		);
 		$content_navigation['cb-footer-shortcuts-privileged'] =
 			self::getFooterShortcutsPrivilegedUsers( $skin, $content_navigation );
+
+		$mainpage = [
+			'text' => $skin->msg( 'mainpage' )->escaped(),
+			'href' => Title::newMainPage()->getLocalURL(),
+		];
+
+		$about = [
+			'text' => $skin->msg( 'about' )->escaped(),
+			'href' => Skin::makeInternalOrExternalUrl(
+				$skin->msg( 'aboutpage' )->inContentLanguage()->text()
+			)
+		];
+
+		$syslinks = [
+			'cb-mainpage' => $mainpage,
+			'cb-about' => $about,
+			'cb-help' => [
+				'text' => $skin->msg( 'help' )->escaped(),
+				'href' => Skin::makeInternalOrExternalUrl(
+					$skin->msg( 'helppage' )->inContentLanguage()->text()
+				),
+			],
+			'cb-faq' => [
+				'text' => $skin->msg( 'faq' )->escaped(),
+				'href' => Skin::makeInternalOrExternalUrl(
+					$skin->msg( 'faqpage' )->inContentLanguage()->text()
+				)
+			],
+		];
+
+		if ( $skin->getUser()->isAnon() ) {
+			$syslinks['cb-create-account'] = [
+				'text' => $skin->msg( 'pt-createaccount' )->escaped(),
+				'href' => Title::newFromText( 'Special:CreateAccount' )->getLocalURL(),
+			];
+			$syslinks['cb-login'] = [
+				'text' => $skin->msg( 'pt-login' )->escaped(),
+				'href' => Title::newFromText( 'Special:UserLogin' )->getLocalURL(),
+			];
+		} else {
+			$syslinks['cb-logout'] = [
+				'text' => $skin->msg( 'pt-userlogout' )->escaped(),
+				'data-mw' => 'interface',
+				'href' => Title::newFromText( 'Special:UserLogout' )->getLocalURL(),
+			];
+		}
+
+		$content_navigation['cb-syslinks'] = $syslinks;
+		$content_navigation['cb-footer-syslinks'] = [
+			'cb-mainpage-footer' => $mainpage,
+			'cb-about-footer' => $about,
+		];
 	}
 
 	/**
