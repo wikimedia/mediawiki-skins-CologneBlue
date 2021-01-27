@@ -14,9 +14,9 @@
 			"class": "SkinMustache",
 			"args": [
 				{
-					"name" : "cologneblue",
+					"name": "cologneblue",
 					"templateDirectory": "skins/CologneBlue/templates/",
-					"styles" : [
+					"styles": [
 						"skins.cologneblue.i18n",
 						"skins.cologneblue"
 					],
