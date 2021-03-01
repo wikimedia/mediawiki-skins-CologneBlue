@@ -12,8 +12,8 @@
 		]
 	},
 	"skinname-cologneblue": "Cologne blå",
-	"cologneblue.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Cologne blå */",
-	"cologneblue.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Cologne blå */",
+	"cologneblue.css": "/* All CSS här kommer att läsas in för de som använder utseendet Cologne blå */",
+	"cologneblue.js": "/* All JavaScript här kommer att läsas in för alla som använder utseendet Cologne blå */",
 	"cologneblue-desc": "Ett lättviktsutseende med minimal formatering",
 	"qbfind": "Hitta",
 	"qbbrowse": "Bläddra igenom",
