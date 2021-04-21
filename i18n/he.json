@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
 			"Or",
 			"Rotemliss"
@@ -14,14 +15,14 @@
 	"qbpageoptions": "הדף הזה",
 	"qbmyoptions": "הדפים שלי",
 	"faqpage": "Project:שאלות ותשובות",
-	"editthispage": "עריכת דף זה",
+	"editthispage": "עריכת הדף הזה",
 	"create-this-page": "יצירת דף זה",
 	"deletethispage": "מחיקת דף זה",
 	"undeletethispage": "שחזור דף זה",
 	"protectthispage": "הפעלת הגנה על דף זה",
-	"unprotectthispage": "שינוי ההגנה על דף זה",
-	"talkpage": "שיחה על דף זה",
-	"articlepage": "צפייה בדף התוכן",
-	"userpage": "צפייה בדף המשתמש",
-	"projectpage": "צפייה בדף המיזם"
+	"unprotectthispage": "שינוי ההגנה על הדף הזה",
+	"talkpage": "דיון על הדף הזה",
+	"articlepage": "הצגת דף התוכן",
+	"userpage": "הצגת דף המשתמש",
+	"projectpage": "הצגת דף המיזם"
 }
