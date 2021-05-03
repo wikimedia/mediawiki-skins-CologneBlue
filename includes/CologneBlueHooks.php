@@ -167,7 +167,7 @@ class CologneBlueHooks {
 		// Clone language menu for footer display
 		$languages = $skin->getLanguages();
 		if ( count( $languages ) > 0 ) {
-			$content_navigation['cb-footer-languages'] = array_map( function ( $lang ) {
+			$content_navigation['cb-footer-languages'] = array_map( static function ( $lang ) {
 				return array_merge( [], $lang, [
 					// disable ID generation.
 					'id' => false,
