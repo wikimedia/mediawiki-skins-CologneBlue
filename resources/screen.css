@@ -208,6 +208,7 @@ a.stub,
 }
 
 a.new,
+#quickbar a.new,
 #quickbar span.new a,
 #footer span.new a {
 	color: #c20;
