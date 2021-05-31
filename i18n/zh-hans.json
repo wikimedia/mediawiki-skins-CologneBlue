@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FakeGreenHand",
 			"Liangent",
 			"Liuxinyu970226",
 			"Xiaomingyan",
@@ -8,7 +9,7 @@
 		]
 	},
 	"skinname-cologneblue": "科隆香水蓝",
-	"cologneblue.css": "/* 这里放置的CSS将影响使用科隆香水蓝皮肤的用户 */",
+	"cologneblue.css": "/* 这里的任何CSS将为使用科隆香水蓝皮肤的用户加载 */",
 	"cologneblue.js": "/* 这里的任何JavaScript将为使用科隆香水蓝皮肤的用户加载 */",
 	"cologneblue-desc": "使用最少量格式的轻量级皮肤",
 	"qbfind": "查找",
