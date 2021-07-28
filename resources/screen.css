@@ -347,3 +347,14 @@ small {
 #linkcollection * {
 	text-align: right;
 }
+
+/* Override `element` feature styles (mediawiki.skinning/element.less) */
+a {
+	text-decoration: underline;
+}
+
+h1,
+h2 {
+	/* stylelint-disable-next-line declaration-property-value-disallowed-list */
+	border-bottom: none;
+}
