@@ -79,7 +79,17 @@
 		"skins.cologneblue": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
-				"legacy": true
+				"elements": true,
+				"interface": true,
+				"content-links": true,
+				"content-links-external": false,
+				"content-thumbnails": true,
+				"interface-message-box": true,
+				"interface-category": true,
+				"content-tables": true,
+				"i18n-ordered-lists": true,
+				"i18n-all-lists-margins": true,
+				"i18n-headings": true
 			},
 			"styles": {
 				"resources/oldshared.css": {},
