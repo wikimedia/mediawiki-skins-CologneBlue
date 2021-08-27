@@ -15,7 +15,6 @@
 			"args": [
 				{
 					"name": "cologneblue",
-					"templateDirectory": "skins/CologneBlue/templates/",
 					"styles": [
 						"skins.cologneblue.i18n",
 						"skins.cologneblue"
