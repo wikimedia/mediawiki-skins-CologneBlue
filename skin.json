@@ -16,7 +16,6 @@
 				{
 					"name": "cologneblue",
 					"styles": [
-						"skins.cologneblue.i18n",
 						"skins.cologneblue"
 					],
 					"messages": [
@@ -63,18 +62,6 @@
 		]
 	},
 	"ResourceModules": {
-		"skins.cologneblue.i18n": {
-			"class": "ResourceLoaderLessVarFileModule",
-			"lessMessages": [
-				"pipe-separator"
-			],
-			"styles": [
-				"resources/skins.cologneblue.i18n.less"
-			],
-			"targets": [
-				"desktop", "mobile"
-			]
-		},
 		"skins.cologneblue": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
@@ -90,8 +77,12 @@
 				"i18n-all-lists-margins": true,
 				"i18n-headings": true
 			},
+			"lessMessages": [
+				"pipe-separator"
+			],
 			"styles": {
 				"resources/oldshared.css": {},
+				"resources/skins.cologneblue.i18n.less": {},
 				"resources/screen.css": {
 					"media": "screen"
 				},
