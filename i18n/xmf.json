@@ -3,21 +3,22 @@
 		"authors": [
 			"David1010",
 			"Dawid Deutschland",
-			"Kilavagora"
+			"Kilavagora",
+			"Narazeni"
 		]
 	},
 	"qbfind": "დოგორი",
 	"qbbrowse": "დათვალიერება",
-	"qbedit": "რედაქტირება",
+	"qbedit": "რედაქტირაფა",
 	"qbpageoptions": "თე ხასჷლა",
 	"qbmyoptions": "ჩქიმი ხასჷლეფი",
 	"faqpage": "Project:ხშირი შეკითხვები",
 	"editthispage": "ხასჷლაშ რედაქტირაფა",
-	"create-this-page": "ამ გვერდის შექმნა",
+	"create-this-page": "თე ხასჷლაშ გოჭყაფა",
 	"deletethispage": "დოლასი თე ხასჷლა",
-	"undeletethispage": "ამ გვერდის აღდგენა",
+	"undeletethispage": "თე ხასჷლაშ კჷნ ეიონწყუალა",
 	"protectthispage": "ხასილაშ თხილუა",
-	"unprotectthispage": "შეცვალე ამ გვერდის დაცვის დონე",
+	"unprotectthispage": "დოთირე ღე ხასჷლაშ თხილუაშ დონე",
 	"talkpage": "მოჩამილი ხასჷლაშ სხუნუა",
 	"articlepage": "სტატიის ნახვა",
 	"userpage": "მახვარებუშ ხასჷლაშ ძირაფა",

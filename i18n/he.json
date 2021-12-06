@@ -3,27 +3,28 @@
 		"authors": [
 			"Guycn2",
 			"Or",
-			"Rotemliss"
+			"Rotemliss",
+			"Amire80"
 		]
 	},
 	"skinname-cologneblue": "מים כחולים",
 	"cologneblue.css": "/* הסגנונות הנכתבים כאן ישפיעו על העיצוב \"מים כחולים\" בלבד */",
 	"cologneblue.js": "/* כל הסקריפטים הנכתבים כאן ייטענו עבור מי שמשתמש בעיצוב \"מים כחולים\" בלבד */",
-	"cologneblue-desc": "מעטפת קלה עם עיצוב מינימלי",
-	"qbfind": "חיפוש",
+	"cologneblue-desc": "ערכת עיצוב קלילה עם ממשק מינימלי",
+	"qbfind": "למצוא",
 	"qbbrowse": "ניווט",
 	"qbedit": "עריכה",
 	"qbpageoptions": "הדף הזה",
 	"qbmyoptions": "הדפים שלי",
 	"faqpage": "Project:שאלות ותשובות",
-	"editthispage": "עריכת דף זה",
-	"create-this-page": "יצירת דף זה",
-	"deletethispage": "מחיקת דף זה",
-	"undeletethispage": "שחזור דף זה",
-	"protectthispage": "הפעלת הגנה על דף זה",
-	"unprotectthispage": "שינוי ההגנה על דף זה",
-	"talkpage": "שיחה על דף זה",
-	"articlepage": "צפייה בדף התוכן",
-	"userpage": "צפייה בדף המשתמש",
-	"projectpage": "צפייה בדף המיזם"
+	"editthispage": "עריכת הדף הזה",
+	"create-this-page": "יצירת הדף הזה",
+	"deletethispage": "מחיקת הדף הזה",
+	"undeletethispage": "שחזור הדף הזה",
+	"protectthispage": "הפעלת הגנה על הדף הזה",
+	"unprotectthispage": "שינוי ההגנה על הדף הזה",
+	"talkpage": "דיון על הדף הזה",
+	"articlepage": "הצגת דף התוכן",
+	"userpage": "הצגת דף המשתמש",
+	"projectpage": "הצגת דף המיזם"
 }

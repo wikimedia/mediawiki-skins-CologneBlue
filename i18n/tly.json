@@ -2,22 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Patriot Kur",
-			"Гусейн"
+			"Гусейн",
+			"Amire80",
+			"QeneralĞasım"
 		]
 	},
 	"qbfind": "Pəydu karde",
 	"qbbrowse": "Дијә кардеј",
 	"qbedit": "Dəqiş karde",
-	"qbpageoptions": "Ым сәһифә",
-	"qbmyoptions": "Чымы сәһифон",
+	"qbpageoptions": "Im səhifə",
+	"qbmyoptions": "Çımı səhifon",
 	"faqpage": "Project:РАП",
-	"editthispage": "Ым сәһифә сәрост кардеј",
-	"create-this-page": "Ым сәһифә офәјеј",
+	"editthispage": "Qordonie ım səhifə",
+	"create-this-page": "Ofəye ım səhifə",
 	"deletethispage": "Im səhifə poz karde",
-	"protectthispage": "Ым сәһифә мыдофијә кардеј",
-	"unprotectthispage": "Ын сәһифә мыдофијә дәгиш кардеј",
-	"talkpage": "Ым сәһифә мызокирә кардеј",
-	"articlepage": "Мәғолә дијә кардеј",
-	"userpage": "Иштирокәкә сәһифә дијә кардеј",
-	"projectpage": "Нәхши сәһифә дијә кардеј"
+	"protectthispage": "Mıdofiyə kardə ım səhifə",
+	"unprotectthispage": "Dəqiş kardə ım səhifə mıdofiyə",
+	"talkpage": "Im səhifə mızokirə kardey",
+	"articlepage": "Diyə kardə bə məzmun səhifə",
+	"userpage": "Diyə kardə bə iştirokəkə səhifə",
+	"projectpage": "Diyə kardə bə naxşə səhifə"
 }
