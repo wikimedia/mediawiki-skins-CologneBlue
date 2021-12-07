@@ -6,7 +6,8 @@
 			"PPerviz",
 			"PrinceValiant",
 			"Sortilegus",
-			"Vago"
+			"Vago",
+			"NMW03"
 		]
 	},
 	"skinname-cologneblue": "Cologne Blue",
@@ -25,7 +26,7 @@
 	"protectthispage": "Bu səhifəni mühafizə et",
 	"unprotectthispage": "Bu səhifənin mühafizəsini kənarlaşdır",
 	"talkpage": "Bu səhifəni müzakirə et",
-	"articlepage": "Məqaləni nəzərdən keçir",
+	"articlepage": "Məzmun səhifəsinə bax",
 	"userpage": "İstifadəçi səhifəsini göstər",
 	"projectpage": "Layihə səhifəsini göstər"
 }

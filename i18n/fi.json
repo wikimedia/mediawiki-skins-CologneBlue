@@ -7,7 +7,8 @@
 			"Nike",
 			"Pxos",
 			"Pyscowicz",
-			"Stryn"
+			"Stryn",
+			"Markus Mikkonen"
 		]
 	},
 	"skinname-cologneblue": "Kölnin sininen",
@@ -17,9 +18,9 @@
 	"qbfind": "Etsi",
 	"qbbrowse": "Selaa",
 	"qbedit": "Muokkaa",
-	"qbpageoptions": "Sivuasetukset",
+	"qbpageoptions": "Tämä sivu",
 	"qbmyoptions": "Omat sivut",
-	"faqpage": "Project:Usein kysytyt kysymykset",
+	"faqpage": "Project:UKK",
 	"editthispage": "Muokkaa tätä sivua",
 	"create-this-page": "Luo tämä sivu",
 	"deletethispage": "Poista tämä sivu",

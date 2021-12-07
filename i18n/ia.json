@@ -5,8 +5,8 @@
 		]
 	},
 	"skinname-cologneblue": "Colonia Blau",
-	"cologneblue.css": "/* Le CSS placiate hic afficera le usatores del apparentia Colonia Blau */",
-	"cologneblue.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Colonia Blau */",
+	"cologneblue.css": "/* Tote CSS hic essera cargate pro le usatores del apparentia Colonia Blau */",
+	"cologneblue.js": "/* Tote JavaScript hic essera cargate pro le usatores del apparentia Colonia Blau */",
 	"cologneblue-desc": "Apparentia legier e minimalista",
 	"qbfind": "Cercar",
 	"qbbrowse": "Foliar",
