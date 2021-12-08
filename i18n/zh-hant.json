@@ -4,10 +4,11 @@
 			"Cwlin0416",
 			"Kly",
 			"Liangent",
-			"Radish10cm"
+			"Radish10cm",
+			"Winston Sung"
 		]
 	},
-	"skinname-cologneblue": "科隆香水藍",
+	"skinname-cologneblue": "科隆香水藍（Cologne Blue）",
 	"cologneblue.css": "/* 此 CSS 會影響使用 Cologne Blue 介面外觀的使用者 */",
 	"cologneblue.js": "/* 此 JavaScript 會用於使用 Cologne Blue 介面外觀的使用者 */",
 	"cologneblue-desc": "使用最少格式設定的輕量級外觀",
