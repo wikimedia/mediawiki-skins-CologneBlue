@@ -50,10 +50,10 @@
 	},
 	"Hooks": {
 		"PersonalUrls": [
-			"CologneBlueHooks::onPersonalUrls"
+			"MediaWiki\\Extension\\CologneBlue\\Hooks::onPersonalUrls"
 		],
 		"SkinTemplateNavigation::Universal": [
-			"CologneBlueHooks::onSkinTemplateNavigationUniversal"
+			"MediaWiki\\Extension\\CologneBlue\\Hooks::onSkinTemplateNavigationUniversal"
 		]
 	},
 	"MessagesDirs": {
@@ -103,8 +103,8 @@
 			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
 		}
 	},
-	"AutoloadClasses": {
-		"CologneBlueHooks": "includes/CologneBlueHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\CologneBlue\\": "includes/"
 	},
 	"manifest_version": 2
 }

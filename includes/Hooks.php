@@ -20,10 +20,17 @@
  * @file
  */
 
+namespace MediaWiki\Extension\CologneBlue;
+
+use Skin;
+use SkinTemplate;
+use SpecialPage;
+use Title;
+
 /**
  * @ingroup Skins
  */
-class CologneBlueHooks {
+class Hooks {
 	/**
 	 * Construct menu for the Cologne Blue footer
 	 * from the existing data given to the
@@ -35,7 +42,6 @@ class CologneBlueHooks {
 	private static function getFooterShortcuts( $skin, $content_nav ) {
 		$footerShortcuts = [];
 		$actions = $content_nav['actions'];
-		$views = $content_nav['views'];
 		$namespaces = $content_nav['namespaces'];
 		$prefix = 'cb-';
 
@@ -54,7 +60,6 @@ class CologneBlueHooks {
 			}
 		}
 
-		$links = [];
 		$out = $skin->getOutput();
 		$title = $out->getTitle();
 		$thispage = $title->getPrefixedDBkey();
