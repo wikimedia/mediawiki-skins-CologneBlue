@@ -1,7 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Robin van der Vliet"
+		]
 	},
+	"qbedit": "o ante",
 	"editthispage": "o ante e lipu ni",
 	"deletethispage": "o weka e lipu ni",
 	"protectthispage": "mi taso o ken ante e lipu ni",
