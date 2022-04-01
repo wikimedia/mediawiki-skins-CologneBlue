@@ -158,7 +158,7 @@ h1 {
 	line-height: 21pt;
 }
 
-h1#firstHeading {
+.mw-first-heading {
 	padding-bottom: 0;
 	margin-bottom: 0;
 }

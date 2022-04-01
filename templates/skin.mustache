@@ -23,8 +23,8 @@
             <div id="{{id}}" class="{{class}}">{{{html}}}</div>
             {{/array-indicators}}
         </div>
-        <h1 id="firstHeading" {{{html-user-language-attributes}}}>{{{html-title}}}</h1>
-        {{! Historically this reviously conditionally rendered if not empty.
+        {{{html-title-heading}}}
+        {{! Historically this previously conditionally rendered if not empty.
         Now empty tag rendered if not present}}
         <p class="tagline">{{msg-tagline}}</p>
         {{{html-subtitle}}}
