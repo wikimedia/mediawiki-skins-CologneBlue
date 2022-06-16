@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ayas7"
+			"Ayas7",
+			"Amire80"
 		]
 	},
 	"qbfind": "Тiлег",
-	"qbbrowse": "кӧргiлеп аларға",
+	"qbbrowse": "Кӧргiлеп аларға",
 	"qbedit": "Тӱзедерге"
 }
