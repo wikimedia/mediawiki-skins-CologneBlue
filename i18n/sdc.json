@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Antofa",
+			"F Samaritani",
 			"Felis"
 		]
 	},
@@ -14,6 +15,7 @@
 	"editthispage": "Mudìfigga chistha pàgina",
 	"create-this-page": "Cria chistha pàgina",
 	"deletethispage": "Canzella chistha pàgina",
+	"undeletethispage": "No canzellà chistha pàgina",
 	"protectthispage": "Prutiggi chistha pàgina",
 	"unprotectthispage": "Ibbrucca chistha pàgina",
 	"talkpage": "Pàgina di dischussioni",
