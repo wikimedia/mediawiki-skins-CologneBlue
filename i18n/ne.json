@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bada Kaji",
 			"Bhawani Gautam",
 			"RajeshPandey",
 			"बिप्लब आनन्द",
@@ -12,7 +13,7 @@
 	"cologneblue.css": "/* यहाँ राखिएको CSS ले कोलोग्ने ब्लु स्किनको प्रयोगकर्ताहरूलाई प्रभावित गर्ने छ  */",
 	"qbfind": "पत्ता लगाउनु",
 	"qbbrowse": "ब्राउज गर्ने",
-	"qbedit": "सम्पादन गर्ने",
+	"qbedit": "सम्पादन गर्नुहोस्",
 	"qbpageoptions": "यो पेज",
 	"qbmyoptions": "मेरो पेज",
 	"faqpage": "Project:धैरै सोधिएका प्रश्नहरू",
