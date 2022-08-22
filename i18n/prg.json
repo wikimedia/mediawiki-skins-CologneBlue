@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nertiks",
-			"Peteris"
+			"Peteris",
+			"Tīgelika"
 		]
 	},
 	"qbfind": "Aupallais",
@@ -15,7 +16,7 @@
 	"create-this-page": "Teīkeis stan pāusan",
 	"deletethispage": "Āupausinais šin pāusan",
 	"protectthispage": "Pakūnteis šin pāusan",
-	"unprotectthispage": "Etkūnteis šin pāusan",
+	"unprotectthispage": "Kitawīdintun pakūnsnan šisse pāusas",
 	"talkpage": "Diskusiōni",
 	"articlepage": "Wīdais ēnturas pāusan",
 	"userpage": "Tērpautajas pāusan",
