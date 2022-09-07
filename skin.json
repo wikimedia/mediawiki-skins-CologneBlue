@@ -49,9 +49,6 @@
 		"MediaWiki": ">= 1.36.0"
 	},
 	"Hooks": {
-		"PersonalUrls": [
-			"MediaWiki\\Extension\\CologneBlue\\Hooks::onPersonalUrls"
-		],
 		"SkinTemplateNavigation::Universal": [
 			"MediaWiki\\Extension\\CologneBlue\\Hooks::onSkinTemplateNavigationUniversal"
 		]
