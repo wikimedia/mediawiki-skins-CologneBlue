@@ -237,20 +237,13 @@ class Hooks {
 			'cb-mainpage-footer' => $mainpage,
 			'cb-about-footer' => $about,
 		];
-	}
 
-	/**
-	 * Removes logout, login and create account from the personal menus tool
-	 * for Cologne Blue for historic reasons.
-	 * @param array &$qbmyoptions
-	 * @param Title $title
-	 * @param SkinTemplate $skin
-	 */
-	public static function onPersonalUrls( array &$qbmyoptions, Title $title, $skin ) {
-		if ( $skin->getSkinName() === 'cologneblue' ) {
-			foreach ( [ 'logout', 'createaccount', 'login' ] as $key ) {
-				unset( $qbmyoptions[$key] );
-			}
+		// Removes logout, login and create account from the personal menus tool
+		// for Cologne Blue for historic reasons.
+		$qbmyoptions = $content_navigation['user-menu'] ?? [];
+		foreach ( [ 'logout', 'createaccount', 'login' ] as $key ) {
+			unset( $qbmyoptions[$key] );
 		}
+		$content_navigation['user-menu'] = $qbmyoptions;
 	}
 }
