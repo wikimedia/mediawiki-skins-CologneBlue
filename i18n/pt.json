@@ -9,8 +9,8 @@
 		]
 	},
 	"skinname-cologneblue": "Azul colonial",
-	"cologneblue.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Azul colonial */",
-	"cologneblue.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Azul colonial */",
+	"cologneblue.css": "/* Todo o código CSS colocado aqui será carregado para os utilizadores do tema Azul colonial */",
+	"cologneblue.js": "/* Todo o código Javascript colocado aqui será carregado para utilizadores do tema Azul colonial */",
 	"cologneblue-desc": "Um tema leve com formatação mínima",
 	"qbfind": "Procurar",
 	"qbbrowse": "Navegar",
