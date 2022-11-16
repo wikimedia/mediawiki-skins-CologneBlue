@@ -154,6 +154,7 @@ div.after-portlet {
 	padding-left: 0.5em;
 }
 
+.mw-heading1,
 h1 {
 	color: #666;
 	font-family: 'Verdana', 'Arial', sans-serif;
@@ -356,8 +357,11 @@ a {
 	text-decoration: underline;
 }
 
+.mw-heading1,
 h1,
+.mw-heading2,
 h2 {
 	/* stylelint-disable-next-line declaration-property-value-disallowed-list */
 	border-bottom: none;
+	margin-bottom: 0;
 }
