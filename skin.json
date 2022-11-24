@@ -96,8 +96,7 @@
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {
 			"+oojs-ui-core.styles": "resources/ooui.less",
-			"+ext.echo.styles.badge": "resources/ext.echo.styles.badge.css",
-			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
+			"+ext.echo.styles.badge": "resources/ext.echo.styles.badge.css"
 		}
 	},
 	"AutoloadNamespaces": {
