@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Lloffiwr",
 			"Xxglennxx"
 		]
 	},
 	"skinname-cologneblue": "Glas Cwlen",
+	"cologneblue-desc": "Gwedd ysgafn heb lawer o fformatio",
 	"qbfind": "Canfod",
 	"qbbrowse": "Pori",
 	"qbedit": "Golygu",
