@@ -6,6 +6,9 @@
 			"Eleassar"
 		]
 	},
+	"skinname-cologneblue": "Kölnska modra",
+	"cologneblue.css": "/* Vsa koda CSS tukaj se bo naložila za uporabnike preobleke Kölnska modra */",
+	"cologneblue.js": "/* Vsa koda JavaScript tukaj se bo naložila za uporabnike preobleke Kölnska modra */",
 	"cologneblue-desc": "Lahka preobleka z minimalnim oblikovanjem",
 	"qbfind": "Poišči",
 	"qbbrowse": "Prebrskaj",
