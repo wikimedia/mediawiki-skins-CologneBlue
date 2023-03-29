@@ -6,7 +6,7 @@
 .cb-piped-list > li {
 	display: inline;
 
-	&:not( :first-child ):before {
+	&:not( :first-child )::before {
 		content: '@{msg-pipe-separator}';
 	}
 }
