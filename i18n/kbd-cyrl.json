@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Bogups",
+			"Rhdtranslate",
 			"Тамэ Балъкъэрхэ"
 		]
 	},
 	"qbfind": "Лъыхъуэн",
 	"qbbrowse": "Хэплъэн",
-	"qbedit": "Гъэтэрэзын",
+	"qbedit": "Зэгъэзэхуэжын",
 	"qbpageoptions": "НапэкӀуэцӀым и зэгъэзэхуэгъуэр",
 	"qbmyoptions": "Уи зэгъэзэхуэгъуэхэр",
 	"faqpage": "Project:FAQ",
-	"editthispage": "Мы напэкIуэцIыр гъэтэрэзын",
+	"editthispage": "Мы напэкӏуэцӏыр зэгъэзэхуэжын",
 	"create-this-page": "Мыбы и напэкӀуэцӀ щӀын",
 	"deletethispage": "Мы напэкӀуэцӀыр ихын",
 	"protectthispage": "Мы напэкӀуэцӀыр хъумэн",
