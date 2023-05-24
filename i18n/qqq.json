@@ -14,8 +14,8 @@
 		]
 	},
 	"skinname-cologneblue": "{{name}}",
-	"cologneblue.css": "{{optional}}",
-	"cologneblue.js": "{{optional}}",
+	"cologneblue.css": "{{optional}}\n{{related/css}}",
+	"cologneblue.js": "{{optional}}\n{{related/js}}",
 	"cologneblue-desc": "{{desc|what=skin|name=Cologne Blue|url=https://www.mediawiki.org/wiki/Skin:Cologne_Blue}}",
 	"qbfind": "Alternative for \"search\" as used in Cologne Blue skin.\n{{Identical|Find}}",
 	"qbbrowse": "Heading in sidebar menu in CologneBlue skin as seen in [[File:CologneBlue sidebar qqx.png]]\n{{Identical|Browse}}",
