@@ -115,7 +115,8 @@ textarea {
 	top: -9999px;
 }
 
-#quickbar h3 {
+#quickbar h3,
+#quickbar .mw-portlet > label {
 	font-family: 'Verdana', 'Arial', sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
@@ -132,6 +133,7 @@ textarea {
 	margin-top: 0;
 }
 
+#quickbar .mw-portlet ul,
 #quickbar .portlet ul,
 #quickbar .portlet li {
 	list-style-type: none;
