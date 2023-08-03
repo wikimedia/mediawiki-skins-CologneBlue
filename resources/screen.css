@@ -126,6 +126,7 @@ textarea {
 	padding: 0;
 	margin-bottom: 2px;
 	margin-top: 6px;
+	display: block;
 }
 
 #quickbar form {
