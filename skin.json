@@ -46,7 +46,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.36.0"
+		"MediaWiki": ">= 1.41"
 	},
 	"Hooks": {
 		"SkinTemplateNavigation::Universal": [
