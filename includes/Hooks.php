@@ -22,10 +22,10 @@
 
 namespace MediaWiki\Extension\CologneBlue;
 
+use MediaWiki\Title\Title;
 use Skin;
 use SkinTemplate;
 use SpecialPage;
-use Title;
 
 /**
  * @ingroup Skins
