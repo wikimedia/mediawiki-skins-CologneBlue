@@ -22,6 +22,9 @@
 
 namespace MediaWiki\Extension\CologneBlue;
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Title\Title;
 use Skin;
 use SkinTemplate;
@@ -30,7 +33,7 @@ use SpecialPage;
 /**
  * @ingroup Skins
  */
-class Hooks {
+class Hooks implements SkinTemplateNavigation__UniversalHook {
 	/**
 	 * Construct menu for the Cologne Blue footer
 	 * from the existing data given to the
@@ -127,7 +130,7 @@ class Hooks {
 	 * @param SkinTemplate $skin
 	 * @param array &$content_navigation
 	 */
-	public static function onSkinTemplateNavigationUniversal( SkinTemplate $skin, array &$content_navigation ) {
+	public function onSkinTemplateNavigation__Universal( $skin, &$content_navigation ): void {
 		if ( $skin->getSkinName() !== 'cologneblue' ) {
 			return;
 		}

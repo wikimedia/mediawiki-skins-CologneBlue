@@ -49,9 +49,12 @@
 		"MediaWiki": ">= 1.41"
 	},
 	"Hooks": {
-		"SkinTemplateNavigation::Universal": [
-			"MediaWiki\\Extension\\CologneBlue\\Hooks::onSkinTemplateNavigationUniversal"
-		]
+		"SkinTemplateNavigation::Universal": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\CologneBlue\\Hooks"
+		}
 	},
 	"MessagesDirs": {
 		"CologneBlue": [
