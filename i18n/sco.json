@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"CiphriusKane",
 			"John Reid",
 			"OchAyeTheNoo"
 		]
@@ -15,7 +16,7 @@
 	"editthispage": "Eedit this page",
 	"create-this-page": "Creaut this page",
 	"deletethispage": "Delyte this page",
-	"undeletethispage": "Ondelyte this page",
+	"undeletethispage": "Undelete this page",
 	"protectthispage": "Fend this page",
 	"unprotectthispage": "Chynge fend fer this page",
 	"talkpage": "Blether ower this page",
