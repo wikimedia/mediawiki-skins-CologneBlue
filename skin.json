@@ -99,6 +99,7 @@
 	"ResourceModuleSkinStyles": {
 		"cologneblue": {
 			"+mediawiki.page.ready": "resources/teleportTarget.less",
+			"+oojs-ui-core.styles": "resources/ooui.less",
 			"+ext.echo.styles.badge": "resources/ext.echo.styles.badge.css",
 			"+mediawiki.action.view.filepage": "resources/mediawiki.action.view.filepage.css"
 		}
