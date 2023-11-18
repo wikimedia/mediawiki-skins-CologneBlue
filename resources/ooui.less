@@ -4,6 +4,8 @@
 body > .oo-ui-windowManager {
 	font-family: 'Verdana', 'Arial', sans-serif;
 	font-size: 10pt;
-	position: absolute;
-	z-index: @z-index-overlay;
+
+	> .oo-ui-dialog {
+		z-index: @z-index-overlay;
+	}
 }
