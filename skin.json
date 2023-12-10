@@ -63,7 +63,7 @@
 	},
 	"ResourceModules": {
 		"skins.cologneblue": {
-			"class": "ResourceLoaderSkinModule",
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
 			"features": {
 				"elements": true,
 				"interface": true,
