@@ -5,6 +5,7 @@
 			"BroOk",
 			"Grondin",
 			"Martorell",
+			"SMP",
 			"Ssola",
 			"Toniher",
 			"Vriullop",
@@ -12,6 +13,7 @@
 		]
 	},
 	"skinname-cologneblue": "Colònia blava",
+	"cologneblue-desc": "Una aparença lleugera amb format mínim",
 	"qbfind": "Cerca",
 	"qbbrowse": "Navega",
 	"qbedit": "Modifica",
