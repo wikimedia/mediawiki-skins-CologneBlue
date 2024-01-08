@@ -8,10 +8,12 @@
 			"Ssola",
 			"Toniher",
 			"Vriullop",
-			"XVEC"
+			"XVEC",
+			"SMP"
 		]
 	},
 	"skinname-cologneblue": "Colònia blava",
+	"cologneblue-desc": "Una aparença lleugera amb format mínim",
 	"qbfind": "Cerca",
 	"qbbrowse": "Navega",
 	"qbedit": "Modifica",
