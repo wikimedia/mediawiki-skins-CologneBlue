@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amdf"
+			"Amdf",
+			"Nadezhda"
 		]
 	},
 	"qbfind": "Кӹчӓлӓш",
-	"qbedit": "Торлӓш",
+	"qbedit": "Тӧрлӓш",
 	"editthispage": "Ти ӹлӹштӓшӹм тӧрлӓш",
 	"talkpage": "Ти ӹлӹштӓш гишӓн хытыраш"
 }
