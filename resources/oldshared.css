@@ -8,35 +8,47 @@
  * https://www.w3.org/TR/CSS21/sample.html to make sure the editsection links scale right
  */
 
+.mw-heading1,
 h1 {
 	font-size: 2em;
 }
 
+.mw-heading2,
 h2 {
 	font-size: 1.5em;
 }
 
+.mw-heading3,
 h3 {
 	font-size: 1.17em;
 }
 
+.mw-heading4,
 h4 {
 	font-size: 1.11em;
 }
 
+.mw-heading5,
 h5 {
 	font-size: 1.05em;
 }
 
+.mw-heading6,
 h6 {
 	font-size: 1em;
 }
 
+.mw-heading1,
 h1,
+.mw-heading2,
 h2,
+.mw-heading3,
 h3,
+.mw-heading4,
 h4,
+.mw-heading5,
 h5,
+.mw-heading6,
 h6 {
 	font-weight: bolder;
 }
