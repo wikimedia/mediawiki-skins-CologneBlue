@@ -8,7 +8,7 @@
 	},
 	"skinname-cologneblue": "Кёльн такъылыкъ",
 	"cologneblue-desc": "Минимум форматланнган дженгил тема",
-	"qbfind": "Излеу",
+	"qbfind": "Таб",
 	"qbbrowse": "Къарау",
 	"qbedit": "Тюзет",
 	"qbpageoptions": "Бу бет",
@@ -22,6 +22,6 @@
 	"unprotectthispage": "Бу бетни джакълауун тюрлендир",
 	"talkpage": "Бу бетни сюз",
 	"articlepage": "Статьягъа къарау",
-	"userpage": "Къошулуучуну энчи бетине къарау",
+	"userpage": "Хайырланыучу бетни кёргюз",
 	"projectpage": "Проектни бетине къара"
 }
