@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Liangent"
 		]
 	},
@@ -14,7 +15,6 @@
 	"create-this-page": "Eçod kardani in sahifa",
 	"deletethispage": "In sahifaro hazf kuned",
 	"protectthispage": "Hifz namudani in sahifa",
-	"unprotectthispage": "Az muhofizat dar ovardani in sahifa",
 	"talkpage": "In sahifaro muhokima kuned",
 	"articlepage": "Namoişi maqola",
 	"userpage": "Sahifai korbarro bined",
