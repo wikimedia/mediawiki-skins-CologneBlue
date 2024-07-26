@@ -5,6 +5,7 @@
 		]
 	},
 	"skinname-cologneblue": "Köln asretligi",
+	"cologneblue-desc": "Minimum formatlandırma ile hafif bir körüniş",
 	"qbfind": "Tap",
 	"qbbrowse": "Baqıp çıq",
 	"qbedit": "Deñiştir",
@@ -14,6 +15,7 @@
 	"editthispage": "Saifeni deñiştir",
 	"create-this-page": "Bu saifeni yarat",
 	"deletethispage": "Saifeni yoq et",
+	"undeletethispage": "Bu saifeni keri qaytar",
 	"protectthispage": "Saifeni qorçalav altına al",
 	"unprotectthispage": "Saife qorçalanuvını deñiştir",
 	"talkpage": "Saifeni muzakere et",
