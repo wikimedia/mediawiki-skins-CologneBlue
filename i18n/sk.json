@@ -22,9 +22,5 @@
 	"deletethispage": "Vymazať túto stránku",
 	"undeletethispage": "Obnoviť túto stránku",
 	"protectthispage": "Zamknúť túto stránku",
-	"unprotectthispage": "Zmeniť stav ochrany tejto stránky",
-	"talkpage": "Diskusia k stránke",
-	"articlepage": "Zobraziť stránku",
-	"userpage": "Zobraziť stránku používateľa",
-	"projectpage": "Zobraziť projektovú stránku"
+	"unprotectthispage": "Zmeniť stav ochrany tejto stránky"
 }

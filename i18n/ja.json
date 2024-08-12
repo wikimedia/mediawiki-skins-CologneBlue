@@ -23,9 +23,5 @@
 	"deletethispage": "このページを削除",
 	"undeletethispage": "このページを復元",
 	"protectthispage": "このページを保護",
-	"unprotectthispage": "このページの保護を変更",
-	"talkpage": "このページについて話し合う",
-	"articlepage": "本文を表示",
-	"userpage": "利用者ページを表示",
-	"projectpage": "プロジェクトのページを表示"
+	"unprotectthispage": "このページの保護を変更"
 }

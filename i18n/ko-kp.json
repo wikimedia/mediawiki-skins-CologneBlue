@@ -15,9 +15,5 @@
 	"deletethispage": "이 문서 삭제하기",
 	"undeletethispage": "이 문서를 지우기취소",
 	"protectthispage": "이 문서 보호하기",
-	"unprotectthispage": "이 문서의 보호 설정을 바꾸기",
-	"talkpage": "토론 문서",
-	"articlepage": "문서 보기",
-	"userpage": "사용자 문서 보기",
-	"projectpage": "과제 문서 보기"
+	"unprotectthispage": "이 문서의 보호 설정을 바꾸기"
 }
