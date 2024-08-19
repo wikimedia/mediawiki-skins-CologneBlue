@@ -4,12 +4,13 @@
 			"Chrumps",
 			"Derbeth",
 			"Devwebtel",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Matma Rex"
 		]
 	},
 	"skinname-cologneblue": "Błękit",
-	"cologneblue.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Błękit */",
-	"cologneblue.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Błękit */",
+	"cologneblue.css": "/* Umieszczony tutaj kod CSS zostanie załadowany przez użytkowników korzystających ze skórki Błękit */",
+	"cologneblue.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany przez użytkowników korzystających ze skórki Błękit */",
 	"cologneblue-desc": "Lekka skórka z minimalnym formatowaniem",
 	"qbfind": "Znajdź",
 	"qbbrowse": "Przeglądanie",
