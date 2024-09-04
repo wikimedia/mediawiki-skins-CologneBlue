@@ -165,6 +165,8 @@ h1 {
 .mw-first-heading {
 	padding-bottom: 0;
 	margin-bottom: 0;
+	/* Change the default from mediawiki.skinning CSS to let indicators float into heading area (T373617) */
+	display: block;
 }
 
 .mw-indicators {
