@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Constraque",
 			"Gazeb"
 		]
 	},
@@ -11,7 +12,7 @@
 	"qbmyoptions": "Мої сторінкы",
 	"faqpage": "Project:Часты звідованя",
 	"editthispage": "Едітовату тоту сторінку",
-	"create-this-page": "Створити тоту сторінку",
+	"create-this-page": "Вытворити тоту сторінку",
 	"deletethispage": "Змазати тоту сторінку",
 	"undeletethispage": "Обновити тоту сторінку",
 	"protectthispage": "Сокотити тоту сторінку",
