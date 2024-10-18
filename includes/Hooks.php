@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\CologneBlue;
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use Skin;
@@ -95,7 +96,7 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 				// $this->msg( 'tool-link-emailuser', $rootUser )->text()
 				$footerShortcuts['emailuser'] = [
 					'text' => $skin->msg( 'tool-link-emailuser', $rootUser )->text(),
-					'href' => Skin::makeSpecialUrlSubpage( 'Emailuser', $rootUser ),
+					'href' => SkinComponentUtils::makeSpecialUrlSubpage( 'Emailuser', $rootUser ),
 				];
 			}
 		}
