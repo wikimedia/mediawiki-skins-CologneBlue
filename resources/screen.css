@@ -174,10 +174,9 @@ h1 {
 }
 
 .mw-indicator {
-	display: -moz-inline-block;
 	display: inline-block;
 	zoom: 1;
-	*display: inline; /* stylelint-disable-line declaration-block-no-duplicate-properties */
+	*display: inline;
 }
 
 #article p.subtitle,
