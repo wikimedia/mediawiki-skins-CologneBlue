@@ -5,13 +5,14 @@
 			"Fryed-peach",
 			"Ohgi",
 			"しぃ",
-			"青子守歌"
+			"青子守歌",
+			"Yaakiyu.jp"
 		]
 	},
 	"skinname-cologneblue": "ケルンブルー",
 	"cologneblue.css": "/* ここに記述したCSSは、全てのケルンブルースキン利用者に読み込まれます */",
 	"cologneblue.js": "/* ここに記述したJavaScriptは、全てのケルンブルースキン利用者に読み込まれます */",
-	"cologneblue-desc": "最小限の書式設定しかない軽量な外装",
+	"cologneblue-desc": "最小限の書式設定しかない軽量なスキン",
 	"qbfind": "検索",
 	"qbbrowse": "閲覧",
 	"qbedit": "編集",
