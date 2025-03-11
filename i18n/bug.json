@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kurniasan"
+			"Kurniasan",
+			"Rdwnnr"
 		]
 	},
 	"qbfind": "Assapparang",
 	"qbbrowse": "Berowoso",
 	"qbedit": "Padécéŋ",
-	"qbpageoptions": "Édé leppa",
+	"qbpageoptions": "Lempaédé",
 	"qbmyoptions": "Leppana iya'",
 	"faqpage": "Project:FAQ",
-	"editthispage": "Padécéŋiki iyé leppa",
-	"create-this-page": "Ebbuiki leppa iyé",
-	"deletethispage": "Peddé iyé leppa",
-	"protectthispage": "Accalinruŋi leppa iyyé"
+	"editthispage": "Padécéngngi lemparédé",
+	"create-this-page": "Ébburi lemparédé",
+	"deletethispage": "Buwangngi lemparédé",
+	"protectthispage": "Lénrungngi lemparédé"
 }
