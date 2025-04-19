@@ -25,11 +25,11 @@ namespace MediaWiki\Extension\CologneBlue;
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Skin\Skin;
 use MediaWiki\Skin\SkinComponentUtils;
+use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use Skin;
-use SkinTemplate;
 
 /**
  * @ingroup Skins
