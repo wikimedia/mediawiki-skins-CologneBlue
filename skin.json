@@ -15,7 +15,6 @@
 			"args": [
 				{
 					"name": "cologneblue",
-					"supportsMwHeading": true,
 					"styles": [
 						"skins.cologneblue"
 					],
@@ -47,7 +46,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.44"
+		"MediaWiki": ">= 1.45"
 	},
 	"Hooks": {
 		"SkinTemplateNavigation::Universal": "main"
