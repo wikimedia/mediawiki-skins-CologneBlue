@@ -10,7 +10,7 @@
 		]
 	},
 	"skinname-cologneblue": "Kelnsko plavo",
-	"cologneblue.css": "/* Sav CSS postavljen ovde će se učitati svim korisnicima teme „Kelnsko plava“ */",
+	"cologneblue.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Kelnsko plava” */",
 	"cologneblue.js": "/* Sav Javaskript postavljen ovde će se učitati svim korisnicima teme „Kelnsko plava“ */",
 	"cologneblue-desc": "Lagana tema sa minimalnim formatiranjem",
 	"qbfind": "Pronađite",
