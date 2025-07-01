@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"skinname-cologneblue": "شين کلون",
+	"cologneblue-desc": "يوه سپکه پوښۍ له ډېرې لږې بڼې سره",
 	"qbfind": "موندل",
 	"qbbrowse": "سپړل",
 	"qbedit": "سمول",
