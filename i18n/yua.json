@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Edfernah",
-			"Lorenzoitza"
+			"Lorenzoitza",
+			"26agcp"
 		]
 	},
 	"qbfind": "Kaaxan",
 	"qbedit": "K'eexe",
 	"qbpageoptions": "Le waala'",
 	"qbmyoptions": "In waalo'ob",
-	"faqpage": "Project:Ba'ax suuk u k'aata'al",
+	"faqpage": "Project:Ba'ax suuk u k'áata'al",
 	"editthispage": "K'ex le waala'",
-	"deletethispage": "Lu'sej le waala'",
-	"protectthispage": "Kalaante waala'",
+	"deletethispage": "Luk's le waala'",
+	"protectthispage": "Kaláant le waala'",
 	"talkpage": "Tsikbal le waala'",
 	"userpage": "Iil u wáal le usuarióo",
 	"projectpage": "Il u paaginai le proyeecto'o"
