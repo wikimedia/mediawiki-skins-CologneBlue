@@ -9,7 +9,7 @@
 			"Cookai1205"
 		]
 	},
-	"skinname-cologneblue": "科隆香水藍（Cologne Blue）",
+	"skinname-cologneblue": "Cologne Blue​（科隆香水藍）",
 	"cologneblue.css": "/* 此處所有的 CSS 都會在使用者使用 Cologne Blue 外觀時載入 */",
 	"cologneblue.js": "/* 此處所有的 JavaScript 都會在使用者使用 Cologne Blue 外觀時載入 */",
 	"cologneblue-desc": "使用最少格式設定的輕量級外觀",
