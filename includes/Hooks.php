@@ -229,7 +229,7 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 		} else {
 			$syslinks['cb-logout'] = [
 				'text' => $skin->msg( 'pt-userlogout' )->escaped(),
-				'data-mw' => 'interface',
+				'data-mw-interface' => '',
 				'href' => Title::newFromText( 'Special:UserLogout' )->getLocalURL(),
 			];
 		}
