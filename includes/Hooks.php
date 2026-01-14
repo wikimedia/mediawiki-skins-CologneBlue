@@ -44,7 +44,7 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 	private static function getFooterShortcuts( $skin, $content_nav ) {
 		$footerShortcuts = [];
 		$actions = $content_nav['actions'];
-		$namespaces = $content_nav['namespaces'];
+		$namespaces = $content_nav['associated-pages'];
 		$prefix = 'cb-';
 
 		foreach ( [ 'edit', 'viewsource' ] as $key ) {
@@ -135,10 +135,10 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 		}
 		// "This page" and "Edit" menus
 		// We need to do some massaging here... we reuse all of the items,
-		// except for $...['views']['view'], as $...['namespaces']['main'] and
-		// $...['namespaces']['talk'] together serve the same purpose. We also
+		// except for $...['views']['view'], as $...['associated-pages']['main'] and
+		// $...['associated-pages']['talk'] together serve the same purpose. We also
 		// don't use $...['variants'], these are displayed in the top menu.
-		$qbpageoptions = $content_navigation['namespaces'];
+		$qbpageoptions = $content_navigation['associated-pages'];
 		if ( isset( $content_navigation['views']['history'] ) ) {
 			$qbpageoptions['history'] = $content_navigation['views']['history'];
 		}
@@ -166,7 +166,7 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 			$content_navigation['actions']
 		);
 
-		$content_navigation['namespaces'] = $qbpageoptions;
+		$content_navigation['associated-pages'] = $qbpageoptions;
 		$content_navigation['actions'] = $qbedit;
 		$out = $skin->getOutput();
 		$toolbox = $out->getProperty( 'cb-toolbox' );

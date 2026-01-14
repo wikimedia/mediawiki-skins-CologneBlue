@@ -108,9 +108,14 @@
             <ul>{{{html-items}}}</ul>
         </div>
         {{/data-portlets.data-actions}}<div class="portlet" id="p-pageoptions" role="navigation"><h3>{{msg-qbpageoptions}}</h3>
-            <ul>{{#data-portlets.data-namespaces}}{{{html-items}}}{{/data-portlets.data-namespaces}}</ul>
+            <ul>{{#data-portlets.data-associated-pages}}{{{html-items}}}{{/data-portlets.data-associated-pages}}</ul>
         </div><div class="portlet {{class}}" id="p-personal" role="navigation"><h3>{{msg-qbmyoptions}}</h3>
-            <ul>{{#data-portlets.data-personal}}{{{html-items}}}{{/data-portlets.data-personal}}</ul>
+            <ul>
+                {{#data-portlets.data-user-interface-preferences}}{{{html-items}}}{{/data-portlets.data-user-interface-preferences}}
+                {{#data-portlets.data-user-page}}{{{html-items}}}{{/data-portlets.data-user-page}}
+                {{#data-portlets.data-notifications}}{{{html-items}}}{{/data-portlets.data-notifications}}
+                {{#data-portlets.data-user-menu}}{{{html-items}}}{{/data-portlets.data-user-menu}}
+            </ul>
         </div>
         {{#data-portlets-sidebar.array-portlets-rest}}
         {{>Portlet}}
