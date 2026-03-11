@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Davidzdh",
 			"LaMagiaaa",
 			"StephDC",
 			"Suchichi02",
@@ -20,6 +21,6 @@
 	"create-this-page": "立",
 	"deletethispage": "刪是頁",
 	"undeletethispage": "反刪此頁",
-	"protectthispage": "緘封",
+	"protectthispage": "緘此頁",
 	"unprotectthispage": "啟函"
 }
