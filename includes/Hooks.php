@@ -22,9 +22,9 @@
 
 namespace MediaWiki\Extension\CologneBlue;
 
-use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Skin\Components\SkinComponentUtils;
+use MediaWiki\Skin\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\Skin;
-use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
