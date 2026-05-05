@@ -1,10 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kallmemel",
 			"Sdm1985"
 		]
 	},
+	"cologneblue-desc": "Un diseño leve ku lay-out minimo",
+	"qbfind": "Haña",
+	"qbbrowse": "Blader",
+	"qbedit": "Editá",
+	"qbpageoptions": "E página aki",
+	"qbmyoptions": "Mi páginanan",
 	"faqpage": "Project:Preguntanan mas Puntrá",
 	"editthispage": "Editá e página aki",
-	"unprotectthispage": "Stop di protehá e página aki"
+	"create-this-page": "Krea página",
+	"deletethispage": "Eliminá página",
+	"undeletethispage": "Restourá página",
+	"protectthispage": "Protehá página",
+	"unprotectthispage": "Kambia protekshon di página"
 }
