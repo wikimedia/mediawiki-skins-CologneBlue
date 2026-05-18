@@ -83,6 +83,7 @@ class Hooks implements SkinTemplateNavigation__UniversalHook {
 					'href' => SpecialPage::getTitleFor( 'Recentchangeslinked',
 						$title->getPrefixedDBkey()
 					)->getLocalURL(),
+					'text' => $skin->msg( 'recentchangeslinked' )->text(),
 				];
 			}
 		}
