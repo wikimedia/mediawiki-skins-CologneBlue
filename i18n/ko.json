@@ -5,13 +5,14 @@
 			"Klutzy",
 			"Kwj2772",
 			"Suleiman the Magnificent Television",
+			"Tensama0415",
 			"Ykhwong",
 			"아라"
 		]
 	},
 	"skinname-cologneblue": "쾰른 블루",
-	"cologneblue.css": "/* 이 CSS 설정은 쾰른 블루 스킨을 사용하는 사용자에게 적용됩니다 */",
-	"cologneblue.js": "/* 이 자바스크립트 설정은 쾰른 블루 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"cologneblue.css": "/* 여기의 모든 CSS는 쾰른 블루 스킨을 사용하는 사용자에게 로드됩니다 */",
+	"cologneblue.js": "/* 여기의 모든 자바스크립트는 쾰른 블루 스킨을 사용하는 사용자에게 로드됩니다 */",
 	"cologneblue-desc": "최소한의 형식을 가진 경량 스킨",
 	"qbfind": "찾기",
 	"qbbrowse": "찾아보기",
