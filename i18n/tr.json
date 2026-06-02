@@ -10,9 +10,13 @@
 			"Rapsar",
 			"Srhat",
 			"Stultiwikia",
-			"Vito Genovese"
+			"Vito Genovese",
+			"HakanIST"
 		]
 	},
+	"skinname-cologneblue": "Cologne Blue",
+	"cologneblue.css": "/* All CSS here will be loaded for users of the Cologne Blue skin */",
+	"cologneblue.js": "/* All JavaScript here will be loaded for users of the Cologne Blue skin */",
 	"cologneblue-desc": "Minimum biçimlendirme ile hafif bir görünüm",
 	"qbfind": "Bul",
 	"qbbrowse": "Göz at",
