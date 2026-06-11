@@ -26,7 +26,9 @@
 						"user-page",
 						"user-interface-preferences",
 						"notifications",
-						"user-menu"
+						"user-menu",
+						"footer-info",
+						"footer-places"
 					],
 					"messages": [
 						"mainpage",

@@ -8,9 +8,9 @@
         <div id="linkcollection" role="navigation">
             <div id="langlinks">{{#data-portlets.data-languages}}{{>Languages}}{{/data-portlets.data-languages}}</div>
             {{{html-categories}}}
-            <div id="titlelinks">{{#data-footer.data-places.array-items}}{{!
+            <div id="titlelinks">{{#data-portlets.data-footer-places.array-items}}{{!
                 }}<span>{{{html}}}</span>{{!
-            }}{{/data-footer.data-places.array-items}}</div>
+            }}{{/data-portlets.data-footer-places.array-items}}</div>
             {{{html-user-message}}}
         </div>
     </div>
@@ -65,13 +65,11 @@
                 {{/data-search-box}}
             </ul>
         </div>
-        {{#data-footer}}
+        {{#data-portlets.data-footer-info}}
         <div id="footer-info" role="contentinfo">
-            {{#data-info}}
             {{#array-items}}{{{html}}} {{/array-items}}
-            {{/data-info}}
         </div>
-        {{/data-footer}}
+        {{/data-portlets.data-footer-info}}
     </div>
 </div>
 <div id="mw-navigation">
